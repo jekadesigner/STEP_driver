@@ -75,7 +75,7 @@ GenerateClassCluster=0
 DocumentUniqueId=UCLEUPJR
 
 [Document3]
-DocumentPath=..\..\..\..\..\#3989\Documents\GitHub\power_u_V.0.2\S_power_u_V.0.2\libraries\Standard.PcbLib
+DocumentPath=..\..\power_u_V.0.2\S_power_u_V.0.2\libraries\Standard.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -92,7 +92,7 @@ GenerateClassCluster=0
 DocumentUniqueId=XIVPSXOG
 
 [Document4]
-DocumentPath=..\..\..\..\..\#3989\Documents\GitHub\power_u_V.0.2\S_power_u_V.0.2\libraries\IC_Operational_amp.SchLib
+DocumentPath=..\..\power_u_V.0.2\S_power_u_V.0.2\libraries\IC_Operational_amp.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -177,7 +177,7 @@ GenerateClassCluster=0
 DocumentUniqueId=QKKHOQJT
 
 [Document9]
-DocumentPath=..\..\..\..\..\#3989\AppData\Local\Temp\Rar$DRa6484.11533\parts\IC_Maxim_Integrated_MAX485ECSA+_eec_IPC_B.PcbLib
+DocumentPath=..\..\..\..\AppData\Local\Temp\Rar$DRa6484.11533\parts\IC_Maxim_Integrated_MAX485ECSA+_eec_IPC_B.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -211,7 +211,7 @@ GenerateClassCluster=0
 DocumentUniqueId=XKTXFQJN
 
 [Document11]
-DocumentPath=..\..\..\..\..\#3989\AppData\Local\Temp\Rar$DRa6484.11533\parts\IC_Maxim_Integrated_MAX485ECSA+_eec.SchLib
+DocumentPath=..\..\..\..\AppData\Local\Temp\Rar$DRa6484.11533\parts\IC_Maxim_Integrated_MAX485ECSA+_eec.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
