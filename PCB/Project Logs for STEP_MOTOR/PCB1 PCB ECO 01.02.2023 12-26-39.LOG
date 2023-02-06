@@ -1,0 +1,23 @@
+Added Component: Designator=D?(8-SOIC)
+Add component (AddParameter): Name = "ComponentDescription"; Value = "Микросхема сдвоенный ОУ, LMV358AIDR, 8-SOIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentTypе"; Value = "Микросхема сдвоенный ОУ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "8-SOIC"; VariantName = "[No Variations]"
+Added Component: Designator=D?(8-SOIC)
+Add component (AddParameter): Name = "ComponentDescription"; Value = "Микросхема сдвоенный ОУ, LMV358AIDR, 8-SOIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentTypе"; Value = "Микросхема сдвоенный ОУ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "8-SOIC"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR?_1 Pin=*-9
+Change Net Name : Old Net Name=NetR?_1 New Net Name=Net*_9
+Added Pin To Net: NetName=Net*_10 Pin=*-10
+Added Pin To Net: NetName=Net*_10 Pin=R?-1
+Added Pin To Net: NetName=Net*_10 Pin=SW?-3
+Added Pin To Net: NetName=Net*_10 Pin=SW?-3
+Added Pin To Net: NetName=Net*_10 Pin=SW?-4
+Added Pin To Net: NetName=Net*_10 Pin=SW?-4
+Added Net: Name=Net*_10
+Added Member To Class: ClassName=Sheet1 Member=Component D? LMV358AIDR
+Added Member To Class: ClassName=Sheet1 Member=Component D? LMV358AIDR
+Added Member To Class: ClassName=Sheet1 Member=Component P? 61900311121
+Added Member To Class: ClassName=Sheet1 Member=Component P? 61900311121
+Added Member To Class: ClassName=Sheet1 Member=Component R? 10K
+Added Member To Class: ClassName=Sheet1 Member=Component SW? 4-1437565-2
