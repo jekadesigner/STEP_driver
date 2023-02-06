@@ -75,74 +75,6 @@ GenerateClassCluster=0
 DocumentUniqueId=UCLEUPJR
 
 [Document3]
-DocumentPath=..\..\..\..\..\#3989\Documents\GitHub\GIRO_SCOPE\2.54_Connector_x6.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=OWESDTTA
-
-[Document4]
-DocumentPath=..\..\..\..\..\#3989\Documents\GitHub\GIRO_SCOPE\2.54_Connector_x6.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WKIZZYIK
-
-[Document5]
-DocumentPath=..\..\..\..\..\#3989\Documents\GitHub\power_u_V.0.2\S_power_u_V.0.2\libraries\Standard.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=XIVPSXOG
-
-[Document6]
-DocumentPath=..\..\..\..\..\#3989\Documents\GitHub\power_u_V.0.2\S_power_u_V.0.2\libraries\IC_Operational_amp.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=PDYIHQCC
-
-[Document7]
 DocumentPath=LIBS\Res_Yageo_RC0805FR-07100KL\Res_Yageo_RC0805FR-07100KL_eec.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -159,7 +91,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ELLYOWVU
 
-[Document8]
+[Document4]
 DocumentPath=LIBS\Res_Yageo_RC0805FR-07100KL\Res_Yageo_RC0805FR-07100KL_eec_IPC_C.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -176,7 +108,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HCCUNMAV
 
-[Document9]
+[Document5]
 DocumentPath=LIBS\Button\4-1437565-2.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -193,7 +125,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UUCHLPUK
 
-[Document10]
+[Document6]
 DocumentPath=LIBS\Button\4-1437565-2.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -210,24 +142,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QKKHOQJT
 
-[Document11]
-DocumentPath=..\..\..\..\..\#3989\AppData\Local\Temp\Rar$DRa6484.11533\parts\IC_Maxim_Integrated_MAX485ECSA+_eec_IPC_B.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=QMBUWADA
-
-[Document12]
+[Document7]
 DocumentPath=LIBS\Res_Yageo_RC0805FR-07100KL\Res_Yageo_RC0805FR-07100KL_eec_MFG.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -244,24 +159,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XKTXFQJN
 
-[Document13]
-DocumentPath=..\..\..\..\..\#3989\AppData\Local\Temp\Rar$DRa6484.11533\parts\IC_Maxim_Integrated_MAX485ECSA+_eec.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=IISPVSUI
-
-[Document14]
+[Document8]
 DocumentPath=LIBS\SamacSys\SamacSys.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -278,7 +176,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NGLTGAHM
 
-[Document15]
+[Document9]
 DocumentPath=LIBS\SamacSys\SamacSys.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -295,7 +193,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MPRJBCLL
 
-[Document16]
+[Document10]
 DocumentPath=LIBS\STM32F303K8T6.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -312,7 +210,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IGEWLRZM
 
-[Document17]
+[Document11]
 DocumentPath=LIBS\IC_STMicroelectronics_NUCLEO-F303K8_eec_MFG.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
