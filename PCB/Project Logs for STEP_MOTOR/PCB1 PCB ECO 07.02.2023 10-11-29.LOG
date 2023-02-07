@@ -1,0 +1,17 @@
+Added Component: Designator=*(STMicroelectronics_0_MFG)
+Added Pin To Net: NetName=Net*_0 Pin=*-0
+Added Pin To Net: NetName=GND Pin=*-3
+Added Pin To Net: NetName=Net*_6 Pin=*-6
+Added Pin To Net: NetName=Net*_7 Pin=*-7
+Added Pin To Net: NetName=Net*_8 Pin=*-8
+Added Pin To Net: NetName=Net*_9 Pin=*-9
+Added Pin To Net: NetName=Net*_10 Pin=*-10
+Added Pin To Net: NetName=Net*_11 Pin=*-11
+Added Pin To Net: NetName=Net*_14 Pin=*-14
+Added Pin To Net: NetName=VCC Pin=*-15
+Added Pin To Net: NetName=GND Pin=*-16
+Added Pin To Net: NetName=Net*_19 Pin=*-19
+Added Pin To Net: NetName=Net*_20 Pin=*-20
+Added Pin To Net: NetName=Net*_24 Pin=*-24
+Added Pin To Net: NetName=Net*_25 Pin=*-25
+Added Member To Class: ClassName=Sheet1 Member=Component * STM32F303K8T6
