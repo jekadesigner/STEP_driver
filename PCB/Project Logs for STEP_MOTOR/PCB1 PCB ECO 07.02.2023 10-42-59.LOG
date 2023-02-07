@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=C? NewDesignator=C1
+Change Component Designator: OldDesignator=C? NewDesignator=C2
+Change Net Name : Old Net Name=NetC?_1 New Net Name=NetC2_1
+Added Member To Class: ClassName=Sheet1 Member=Component C2 EEE1HA101AP
