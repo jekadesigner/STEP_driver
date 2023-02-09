@@ -296,23 +296,6 @@ GenerateClassCluster=0
 DocumentUniqueId=NUMRFNIF
 
 [Document16]
-DocumentPath=..\..\..\..\Downloads\Библиотеки Altium\UNK_Wuerth Elektronik_151033BS03000\parts\Wuerth_Elektronik_151033BS03000_0.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=RTVKHWAY
-
-[Document17]
 DocumentPath=LIBS\Res_Yageo_RC0805FR-07100KL\Res_Yageo_RC0805FR-07100KL_eec_IPC_A.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -329,7 +312,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MJCLDIGB
 
-[Document18]
+[Document17]
 DocumentPath=LIBS\Res_Yageo_RC0805FR-07100KL\Res_Yageo_RC0805FR-07100KL_eec_IPC_B.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -346,7 +329,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QNQOQFSX
 
-[Document19]
+[Document18]
 DocumentPath=LIBS\Res_Yageo_RC0805FR-07100KL\Res_Yageo_RC0805FR-07100KL_eec_IPC_C.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -363,24 +346,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HCCUNMAV
 
-[Document20]
-DocumentPath=..\..\..\..\Downloads\Библиотеки Altium\UNK_Wuerth Elektronik_151033BS03000\parts\Wuerth_Elektronik_151033BS03000.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=PDRPOHAC
-
-[Document21]
+[Document19]
 DocumentPath=LIBS\ul_4-1437565-2\AltiumDesigner\2022-12-24_16-51-21\4-1437565-2.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -397,7 +363,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QKKHOQJT
 
-[Document22]
+[Document20]
 DocumentPath=LIBS\LED_3mm\Wuerth_Elektronik_151033BS03000.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -414,7 +380,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TXSFSTWL
 
-[Document23]
+[Document21]
 DocumentPath=LIBS\SamacSys\SamacSys.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -431,7 +397,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MPRJBCLL
 
-[Document24]
+[Document22]
 DocumentPath=LIBS\LED_3mm\Wuerth_Elektronik_151033BS03000_0.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -448,7 +414,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EHXTGQKG
 
-[Document25]
+[Document23]
 DocumentPath=LIBS\Res_Yageo_RC0805FR-07100KL\Res_Yageo_RC0805FR-07100KL_eec_MFG.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -465,7 +431,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XKTXFQJN
 
-[Document26]
+[Document24]
 DocumentPath=LIBS\Res_Vishay_CRCW08050000Z0EA\Res_Vishay_CRCW08050000Z0EA_eec_MFG.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -482,7 +448,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TJJFNTER
 
-[Document27]
+[Document25]
 DocumentPath=LIBS\Res_Vishay_CRCW08050000Z0EA\Res_Vishay_CRCW08050000Z0EA_eec_IPC_B.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -499,7 +465,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MYBMFNJF
 
-[Document28]
+[Document26]
 DocumentPath=..\..\GIRO_SCOPE\IC_ON Semiconductor_LM7812CT\parts\IC_ON_Semiconductor_LM7812CT_eec_MFG.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -516,7 +482,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QFDNRSJD
 
-[Document29]
+[Document27]
 DocumentPath=LIBS\Res_Yageo_RC0805FR-07100KL\Res_Yageo_RC0805FR-07100KL_eec.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -533,7 +499,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ELLYOWVU
 
-[Document30]
+[Document28]
 DocumentPath=LIBS\LM7812\IC_ON_Semiconductor_LM7812CT_eec.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -669,7 +635,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Samsung ML-2160 Series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -713,36 +679,24 @@ OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
 PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType7=PDF3D
-OutputName7=PDF3D
+OutputType7=Report Print
+OutputName7=Report Prints
 OutputDocumentPath7=
-OutputVariantName7=[No Variations]
+OutputVariantName7=
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType8=PDF3D MBA
-OutputName8=PDF3D MBA
+OutputType8=Schematic Print
+OutputName8=Schematic Prints
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType9=Report Print
-OutputName9=Report Prints
+OutputType9=SimView Print
+OutputName9=SimView Prints
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType10=Schematic Print
-OutputName10=Schematic Prints
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType11=SimView Print
-OutputName11=SimView Prints
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
