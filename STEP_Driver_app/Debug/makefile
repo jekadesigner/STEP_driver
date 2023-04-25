@@ -52,6 +52,12 @@ default.size.stdout \
 OBJDUMP_LIST += \
 STEP_Driver.list \
 
+OBJCOPY_HEX += \
+STEP_Driver.hex \
+
+OBJCOPY_BIN += \
+STEP_Driver.bin \
+
 
 # All Target
 all: main-build
@@ -60,8 +66,8 @@ all: main-build
 main-build: STEP_Driver.elf secondary-outputs
 
 # Tool invocations
-STEP_Driver.elf STEP_Driver.map: $(OBJS) $(USER_OBJS) C:\work\STEP_Driver\STM32F303K8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "STEP_Driver.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\work\STEP_Driver\STM32F303K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STEP_Driver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+STEP_Driver.elf STEP_Driver.map: $(OBJS) $(USER_OBJS) C:\Users\#3989\Documents\GitHub\STEP_driver\STEP_Driver_app\STM32F303K8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "STEP_Driver.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\#3989\Documents\GitHub\STEP_driver\STEP_Driver_app\STM32F303K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STEP_Driver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -75,12 +81,22 @@ STEP_Driver.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
+STEP_Driver.hex: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objcopy  -O ihex $(EXECUTABLES) "STEP_Driver.hex"
+	@echo 'Finished building: $@'
+	@echo ' '
+
+STEP_Driver.bin: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objcopy  -O binary $(EXECUTABLES) "STEP_Driver.bin"
+	@echo 'Finished building: $@'
+	@echo ' '
+
 # Other Targets
 clean:
-	-$(RM) STEP_Driver.elf STEP_Driver.list STEP_Driver.map default.size.stdout
+	-$(RM) STEP_Driver.bin STEP_Driver.elf STEP_Driver.hex STEP_Driver.list STEP_Driver.map default.size.stdout
 	-@echo ' '
 
-secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)
+secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST) $(OBJCOPY_HEX) $(OBJCOPY_BIN)
 
 fail-specified-linker-script-missing:
 	@echo 'Error: Cannot find the specified linker script. Check the linker settings in the build configuration.'
