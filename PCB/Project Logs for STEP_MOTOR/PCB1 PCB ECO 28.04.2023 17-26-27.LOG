@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=NetR2_1 Pin=U4-7
+Removed Pin From Net: NetName=NetR10_1 Pin=U4-44
+Added Component: Designator=R2(Vishay_CRCW0805-e3_IPC_A)
+Added Component: Designator=R10(Vishay_CRCW0805-e3_IPC_A)
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=GND Pin=R2-2
+Added Pin To Net: NetName=NetR10_1 Pin=R10-1
+Added Pin To Net: NetName=NetC1_2 Pin=R10-2
+Added Pin To Net: NetName=NetR10_1 Pin=U4-7
+Added Pin To Net: NetName=NetR2_1 Pin=U4-44
+Added Member To Class: ClassName=Sheet1 Member=Component R2 10K
+Added Member To Class: ClassName=Sheet1 Member=Component R10 10K
