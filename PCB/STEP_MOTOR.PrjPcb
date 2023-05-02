@@ -839,6 +839,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TRSUPSAE
 
+[Document48]
+DocumentPath=LIBS\TO-220(bend_rad).PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LVFMMWJJ
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
