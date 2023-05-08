@@ -1,9 +1,0 @@
-Change Component Footprint: Designator=R57 Old Footprint=FP-CRCW0805-e3-IPC_A New Footprint=FP-CRCW0805-e3-IPC_A
-Change Component Footprint: Designator=R88 Old Footprint=FP-CRCW0805-e3-IPC_A New Footprint=FP-CRCW0805-e3-IPC_A
-Change Component Footprint: Designator=LED1 Old Footprint=Type 3mm New Footprint=Type 3mm
-Change Component Footprint: Designator=LED2 Old Footprint=Type 3mm New Footprint=Type 3mm
-Change Component Footprint: Designator=LED3 Old Footprint=Type 3mm New Footprint=Type 3mm
-Change Component Footprint: Designator=LED4 Old Footprint=Type 3mm New Footprint=Type 3mm
-Change Component Footprint: Designator=L1 Old Footprint=WE-PD4-XL New Footprint=WE-PD4-XL
-Added Pin To Net: NetName=+5 Pin=P13-5
-Change Net Name : Old Net Name=NetC1_2 New Net Name=+3V3
