@@ -34,40 +34,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := STEP_Driver
+BUILD_ARTIFACT_NAME := Levitation_driver
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-STEP_Driver.elf \
+Levitation_driver.elf \
 
 MAP_FILES += \
-STEP_Driver.map \
+Levitation_driver.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-STEP_Driver.list \
-
-OBJCOPY_HEX += \
-STEP_Driver.hex \
-
-OBJCOPY_BIN += \
-STEP_Driver.bin \
+Levitation_driver.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: STEP_Driver.elf secondary-outputs
+main-build: Levitation_driver.elf secondary-outputs
 
 # Tool invocations
-STEP_Driver.elf STEP_Driver.map: $(OBJS) $(USER_OBJS) C:\Users\#3989\Documents\GitHub\STEP_driver\STEP_Driver_app\STM32F303K8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "STEP_Driver.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\#3989\Documents\GitHub\STEP_driver\STEP_Driver_app\STM32F303K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STEP_Driver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Levitation_driver.elf Levitation_driver.map: $(OBJS) $(USER_OBJS) C:\work\Levitation\STM32F303CCTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Levitation_driver.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\work\Levitation\STM32F303CCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Levitation_driver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -76,27 +70,17 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-STEP_Driver.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "STEP_Driver.list"
-	@echo 'Finished building: $@'
-	@echo ' '
-
-STEP_Driver.hex: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objcopy  -O ihex $(EXECUTABLES) "STEP_Driver.hex"
-	@echo 'Finished building: $@'
-	@echo ' '
-
-STEP_Driver.bin: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objcopy  -O binary $(EXECUTABLES) "STEP_Driver.bin"
+Levitation_driver.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "Levitation_driver.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) STEP_Driver.bin STEP_Driver.elf STEP_Driver.hex STEP_Driver.list STEP_Driver.map default.size.stdout
+	-$(RM) Levitation_driver.elf Levitation_driver.list Levitation_driver.map default.size.stdout
 	-@echo ' '
 
-secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST) $(OBJCOPY_HEX) $(OBJCOPY_BIN)
+secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)
 
 fail-specified-linker-script-missing:
 	@echo 'Error: Cannot find the specified linker script. Check the linker settings in the build configuration.'
