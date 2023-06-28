@@ -602,57 +602,6 @@ GenerateClassCluster=0
 DocumentUniqueId=QKKHOQJT
 
 [Document34]
-DocumentPath=..\..\GIRO_SCOPE\IC_ON Semiconductor_LM7812CT\parts\IC_ON_Semiconductor_LM7812CT_eec.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=NSHBEVIE
-
-[Document35]
-DocumentPath=..\..\GIRO_SCOPE\2.54_Connector_x6.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WKIZZYIK
-
-[Document36]
-DocumentPath=..\..\GIRO_SCOPE\2.54_Connector_x6.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=OWESDTTA
-
-[Document37]
 DocumentPath=LIBS\Res_Yageo_RC0805FR-07100KL\Res_Yageo_RC0805FR-07100KL_eec_IPC_A.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -669,7 +618,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MJCLDIGB
 
-[Document38]
+[Document35]
 DocumentPath=LIBS\Res_Yageo_RC0805FR-07100KL\Res_Yageo_RC0805FR-07100KL_eec_IPC_B.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -686,7 +635,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QNQOQFSX
 
-[Document39]
+[Document36]
 DocumentPath=LIBS\Res_Yageo_RC0805FR-07100KL\Res_Yageo_RC0805FR-07100KL_eec_IPC_C.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -703,7 +652,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HCCUNMAV
 
-[Document40]
+[Document37]
 DocumentPath=LIBS\ul_4-1437565-2\AltiumDesigner\2022-12-24_16-51-21\4-1437565-2.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -720,7 +669,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QKKHOQJT
 
-[Document41]
+[Document38]
 DocumentPath=LIBS\SamacSys\SamacSys.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -737,7 +686,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MPRJBCLL
 
-[Document42]
+[Document39]
 DocumentPath=LIBS\Res_Yageo_RC0805FR-07100KL\Res_Yageo_RC0805FR-07100KL_eec_MFG.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -754,24 +703,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XKTXFQJN
 
-[Document43]
-DocumentPath=..\..\GIRO_SCOPE\IC_ON Semiconductor_LM7812CT\parts\IC_ON_Semiconductor_LM7812CT_eec_MFG.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=QFDNRSJD
-
-[Document44]
+[Document40]
 DocumentPath=LIBS\Res_Yageo_RC0805FR-07100KL\Res_Yageo_RC0805FR-07100KL_eec.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -788,7 +720,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ELLYOWVU
 
-[Document45]
+[Document41]
 DocumentPath=LIBS\LM7812\IC_ON_Semiconductor_LM7812CT_eec.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -805,7 +737,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LLNPQUGE
 
-[Document46]
+[Document42]
 DocumentPath=..\..\Multiply_interface\Libs\3x2.54_Connector.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -822,7 +754,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JREFLFZW
 
-[Document47]
+[Document43]
 DocumentPath=LIBS\TO-220(bend2).PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -839,7 +771,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TRSUPSAE
 
-[Document48]
+[Document44]
 DocumentPath=LIBS\TO-220(bend_rad).PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -856,7 +788,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LVFMMWJJ
 
-[Document49]
+[Document45]
 DocumentPath=Project Outputs for STEP_MOTOR\CAMtastic1.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -873,7 +805,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document50]
+[Document46]
 DocumentPath=Project Outputs for STEP_MOTOR\CAMtastic2.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1145,7 +1077,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=NPI23FAA8 (HP LaserJet MFP M426dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
