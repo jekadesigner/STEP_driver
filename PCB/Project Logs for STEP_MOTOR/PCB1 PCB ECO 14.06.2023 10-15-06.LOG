@@ -1,5 +1,0 @@
-Added Component: Designator=R119(Yageo_RC0805_IPC_A)
-Added Pin To Net: NetName=NetJ6_5 Pin=R119-2
-Added Pin To Net: NetName=NetD47_1 Pin=R119-1
-Added Net: Name=NetD47_1
-Added Member To Class: ClassName=Sheet1 Member=Component R119 220
