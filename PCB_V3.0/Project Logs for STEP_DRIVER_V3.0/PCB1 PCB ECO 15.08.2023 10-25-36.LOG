@@ -1,0 +1,7 @@
+Added Component: Designator=C5(1000uF_10V_Size_F)
+Added Component: Designator=U18(FP-C04-091-OT-MFG)
+Added Pin To Net: NetName=VCC Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=GND Pin=R13-1
+Added Pin To Net: NetName=GND Pin=R79-1
+Added Member To Class: ClassName=Sheet1 Member=Component C5 220uF_50V

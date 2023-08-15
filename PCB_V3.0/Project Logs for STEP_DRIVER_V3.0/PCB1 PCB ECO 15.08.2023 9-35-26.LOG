@@ -1,0 +1,124 @@
+Added Component: Designator=C2(FP-SF-MFG)
+Added Component: Designator=C3(FP-SF-MFG)
+Added Component: Designator=C4(1500uF_100V)
+Added Component: Designator=C37(PCAP_18x355_PAN)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2022 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "ECA-1JHG222"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Component: Designator=C38(1500uF_100V)
+Added Component: Designator=C39(1500uF_100V)
+Added Component: Designator=C40(FP-C0805C-DN-MFG)
+Added Component: Designator=C41(FP-GRM21B-0_1-IPC_C)
+Added Component: Designator=C42(FP-GRM21B-0_1-IPC_C)
+Added Component: Designator=C43(FP-C0805C-DN-MFG)
+Added Component: Designator=C44(FP-C0805C-DN-MFG)
+Added Component: Designator=C46(FP-C0805C-DN-MFG)
+Added Component: Designator=C47(FP-C0805C-DN-MFG)
+Added Component: Designator=J14(KLS8-M3)
+Added Component: Designator=J16(DEGSON_DG25)
+Added Component: Designator=J17(KLS8-M3)
+Added Component: Designator=J18(KLS8-M3)
+Added Component: Designator=J19(KLS8-M3)
+Added Component: Designator=L2(Coil_drosel)
+Added Component: Designator=L3(Coil_drosel)
+Added Component: Designator=P14(61300511121)
+Add component (AddParameter): Name = "Category"; Value = "Board-to-Board Connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Website Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.we-online.com/redexpert/article/61300511121?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/redexpert/spec/61300511121?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "20m?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Pin Header"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "61300511121"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Match Code"; Value = "WR-PHD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Max"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Min"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bag"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Withstanding Voltage"; Value = "500V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "250V"; VariantName = "[No Variations]"
+Added Component: Designator=R63(FP-SQP500-MFG)
+Added Component: Designator=R64(FP-SQP500-MFG)
+Added Component: Designator=R66(FP-SQP500-MFG)
+Added Component: Designator=R67(FP-SQP500-MFG)
+Added Component: Designator=R69(Yageo_RC0805_IPC_C)
+Added Component: Designator=R70(Yageo_RC0805_IPC_C)
+Added Component: Designator=R120(FP-CRCW0805-e3-IPC_B)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP6(Test_Point)
+Added Component: Designator=TP7(Test_Point)
+Added Component: Designator=U14(SC70-LT5_N)
+Added Component: Designator=U15(SC70-LT5_M)
+Added Component: Designator=U16(SC70-LT5_M)
+Added Component: Designator=U17(SC70-LT5_M)
+Added Component: Designator=U18(FP-C04-091-OT-MFG)
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=NetC4_2 Pin=C4-2
+Added Pin To Net: NetName=VCC Pin=C37-1
+Added Pin To Net: NetName=GND Pin=C37-2
+Added Pin To Net: NetName=GND Pin=C38-1
+Added Pin To Net: NetName=NetC38_2 Pin=C38-2
+Added Pin To Net: NetName=GND Pin=C39-1
+Added Pin To Net: NetName=V_PS Pin=C39-2
+Added Pin To Net: NetName=V_PS Pin=J14-1
+Added Pin To Net: NetName=V_PS Pin=J14-1
+Added Pin To Net: NetName=V_PS Pin=J14-1
+Added Pin To Net: NetName=V_PS Pin=J14-1
+Added Pin To Net: NetName=V_PS Pin=J16-1
+Added Pin To Net: NetName=GND Pin=J16-2
+Added Pin To Net: NetName=V_PS Pin=J17-1
+Added Pin To Net: NetName=V_PS Pin=J17-1
+Added Pin To Net: NetName=V_PS Pin=J17-1
+Added Pin To Net: NetName=V_PS Pin=J17-1
+Added Pin To Net: NetName=GND Pin=J18-1
+Added Pin To Net: NetName=GND Pin=J18-1
+Added Pin To Net: NetName=GND Pin=J18-1
+Added Pin To Net: NetName=GND Pin=J18-1
+Added Pin To Net: NetName=GND Pin=J19-1
+Added Pin To Net: NetName=GND Pin=J19-1
+Added Pin To Net: NetName=GND Pin=J19-1
+Added Pin To Net: NetName=GND Pin=J19-1
+Added Pin To Net: NetName=NetJ2_2 Pin=L2-1
+Added Pin To Net: NetName=NetC4_2 Pin=L2-2
+Added Pin To Net: NetName=V_PS Pin=L3-1
+Added Pin To Net: NetName=NetC38_2 Pin=L3-2
+Added Pin To Net: NetName=GND Pin=P14-1
+Added Pin To Net: NetName=NetP12_2 Pin=P14-2
+Added Pin To Net: NetName=NetP12_3 Pin=P14-3
+Added Pin To Net: NetName=+3V3 Pin=P14-4
+Added Pin To Net: NetName=+5 Pin=P14-5
+Added Pin To Net: NetName=GND Pin=R13-1
+Added Pin To Net: NetName=NetC46_1 Pin=R69-1
+Added Pin To Net: NetName=NetC20_1 Pin=R69-2
+Added Pin To Net: NetName=NetC47_2 Pin=R70-1
+Added Pin To Net: NetName=NetC47_1 Pin=R70-2
+Added Pin To Net: NetName=GND Pin=R79-1
+Added Pin To Net: NetName=NetC41_2 Pin=R120-1
+Added Pin To Net: NetName=NetJ9_2 Pin=R120-2
+Added Pin To Net: NetName=NetC38_2 Pin=TP6-1
+Added Pin To Net: NetName=NetC4_2 Pin=TP7-1
+Added Member To Class: ClassName=Sheet1 Member=Component C4 1500uF_100V
+Added Member To Class: ClassName=Sheet1 Member=Component C37 ECA-1JHG222
+Added Member To Class: ClassName=Sheet1 Member=Component C38 1500uF_100V
+Added Member To Class: ClassName=Sheet1 Member=Component C39 1500uF_100V
+Added Member To Class: ClassName=Sheet1 Member=Component J14 KLS8-M3
+Added Member To Class: ClassName=Sheet1 Member=Component J16 DEGSON
+Added Member To Class: ClassName=Sheet1 Member=Component J17 KLS8-M3
+Added Member To Class: ClassName=Sheet1 Member=Component J18 KLS8-M3
+Added Member To Class: ClassName=Sheet1 Member=Component J19 KLS8-M3
+Added Member To Class: ClassName=Sheet1 Member=Component L2 Coil
+Added Member To Class: ClassName=Sheet1 Member=Component L3 Coil
+Added Member To Class: ClassName=Sheet1 Member=Component P14 61300511121
+Added Member To Class: ClassName=Sheet1 Member=Component R69 10K
+Added Member To Class: ClassName=Sheet1 Member=Component R70 10K
+Added Member To Class: ClassName=Sheet1 Member=Component R120 10
+Added Member To Class: ClassName=Sheet1 Member=Component TP6 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP7 Test_Point_PCB

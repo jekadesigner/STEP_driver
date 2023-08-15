@@ -1,0 +1,7 @@
+Added Component: Designator=C45(1000uF_10V_Size_F)
+Added Component: Designator=U18(FP-C04-091-OT-MFG)
+Added Pin To Net: NetName=+3V3 Pin=C45-1
+Added Pin To Net: NetName=GND Pin=C45-2
+Added Pin To Net: NetName=GND Pin=R13-1
+Added Pin To Net: NetName=GND Pin=R79-1
+Added Member To Class: ClassName=Sheet1 Member=Component C45 1000uF_10V

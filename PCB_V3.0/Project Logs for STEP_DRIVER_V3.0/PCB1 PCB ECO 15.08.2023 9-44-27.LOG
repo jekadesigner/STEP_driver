@@ -1,0 +1,160 @@
+Change Component Footprint: Designator=R120 Old Footprint=FP-CRCW0805-e3-IPC_B New Footprint=FP-CRCW0805-e3-IPC_B
+Added Component: Designator=C2(FP-SF-MFG)
+Added Component: Designator=C3(FP-SF-MFG)
+Added Component: Designator=C40(FP-C0805C-DN-MFG)
+Added Component: Designator=C41(FP-GRM21B-0_1-IPC_C)
+Added Component: Designator=C42(FP-GRM21B-0_1-IPC_C)
+Added Component: Designator=C43(FP-C0805C-DN-MFG)
+Added Component: Designator=C44(FP-C0805C-DN-MFG)
+Added Component: Designator=C46(FP-C0805C-DN-MFG)
+Added Component: Designator=C47(FP-C0805C-DN-MFG)
+Added Component: Designator=R63(FP-SQP500-MFG)
+Added Component: Designator=R64(FP-SQP500-MFG)
+Added Component: Designator=R66(FP-SQP500-MFG)
+Added Component: Designator=R67(FP-SQP500-MFG)
+Added Component: Designator=U17(SC70-LT5_M)
+Added Component: Designator=U18(FP-C04-091-OT-MFG)
+Added Pin To Net: NetName=GND Pin=R13-1
+Added Pin To Net: NetName=GND Pin=R79-1
+Added Member To Class: ClassName=Sheet1 Member=Component BT1 CR2032_BAT
+Added Member To Class: ClassName=Sheet1 Member=Component C4 1500uF_100V
+Added Member To Class: ClassName=Sheet1 Member=Component C37 ECA-1JHG222
+Added Member To Class: ClassName=Sheet1 Member=Component C38 1500uF_100V
+Added Member To Class: ClassName=Sheet1 Member=Component C39 1500uF_100V
+Added Member To Class: ClassName=Sheet1 Member=Component CR1 1N5822RL
+Added Member To Class: ClassName=Sheet1 Member=Component CR2 1N5822RL
+Added Member To Class: ClassName=Sheet1 Member=Component D29 151031YS06000
+Added Member To Class: ClassName=Sheet1 Member=Component D30 151031YS06000
+Added Member To Class: ClassName=Sheet1 Member=Component D31 151031YS06000
+Added Member To Class: ClassName=Sheet1 Member=Component D47 151031YS06000
+Added Member To Class: ClassName=Sheet1 Member=Component J1 691101710002
+Added Member To Class: ClassName=Sheet1 Member=Component J2 691101710002
+Added Member To Class: ClassName=Sheet1 Member=Component J3 DEGSON
+Added Member To Class: ClassName=Sheet1 Member=Component J4 691101710002
+Added Member To Class: ClassName=Sheet1 Member=Component J5 691101710003
+Added Member To Class: ClassName=Sheet1 Member=Component J6 SWR25X-NRTC-S06-ST-BA
+Added Member To Class: ClassName=Sheet1 Member=Component J7 SWR25X-NRTC-S06-ST-BA
+Added Member To Class: ClassName=Sheet1 Member=Component J8 DEGSON
+Added Member To Class: ClassName=Sheet1 Member=Component J9 DEGSON
+Added Member To Class: ClassName=Sheet1 Member=Component J10 DEGSON
+Added Member To Class: ClassName=Sheet1 Member=Component J11 SWR25X-NRTC-S06-ST-BA
+Added Member To Class: ClassName=Sheet1 Member=Component J12 Jumper 1x2.54
+Added Member To Class: ClassName=Sheet1 Member=Component J14 KLS8-M3
+Added Member To Class: ClassName=Sheet1 Member=Component J16 DEGSON
+Added Member To Class: ClassName=Sheet1 Member=Component J17 KLS8-M3
+Added Member To Class: ClassName=Sheet1 Member=Component J18 KLS8-M3
+Added Member To Class: ClassName=Sheet1 Member=Component J19 KLS8-M3
+Added Member To Class: ClassName=Sheet1 Member=Component L1 22µH, 2.04A
+Added Member To Class: ClassName=Sheet1 Member=Component L2 Coil
+Added Member To Class: ClassName=Sheet1 Member=Component L3 Coil
+Added Member To Class: ClassName=Sheet1 Member=Component LED3 151033BS03000
+Added Member To Class: ClassName=Sheet1 Member=Component LED4 151033BS03000
+Added Member To Class: ClassName=Sheet1 Member=Component P1 TSW-104-08-G-S
+Added Member To Class: ClassName=Sheet1 Member=Component P2 61900311121
+Added Member To Class: ClassName=Sheet1 Member=Component P4 61900311121
+Added Member To Class: ClassName=Sheet1 Member=Component P8 61900311121
+Added Member To Class: ClassName=Sheet1 Member=Component P9 61900311121
+Added Member To Class: ClassName=Sheet1 Member=Component P10 61900311121
+Added Member To Class: ClassName=Sheet1 Member=Component P11 61900311121
+Added Member To Class: ClassName=Sheet1 Member=Component P12 61300511121
+Added Member To Class: ClassName=Sheet1 Member=Component P13 61300511121
+Added Member To Class: ClassName=Sheet1 Member=Component P14 61300511121
+Added Member To Class: ClassName=Sheet1 Member=Component R29 SQP500JB-R91
+Added Member To Class: ClassName=Sheet1 Member=Component R32 SQP500JB-R91
+Added Member To Class: ClassName=Sheet1 Member=Component R69 10K
+Added Member To Class: ClassName=Sheet1 Member=Component R70 10K
+Added Member To Class: ClassName=Sheet1 Member=Component R107 SQP500JB-R91
+Added Member To Class: ClassName=Sheet1 Member=Component R109 SQP500JB-R91
+Added Member To Class: ClassName=Sheet1 Member=Component R119 220
+Added Member To Class: ClassName=Sheet1 Member=Component R120 10
+Added Member To Class: ClassName=Sheet1 Member=Component RG1 Reg_Fairchild_LM7805CT_eec
+Added Member To Class: ClassName=Sheet1 Member=Component RP1 50k
+Added Member To Class: ClassName=Sheet1 Member=Component RP6 10k
+Added Member To Class: ClassName=Sheet1 Member=Component RP7 10k
+Added Member To Class: ClassName=Sheet1 Member=Component RP8 10k
+Added Member To Class: ClassName=Sheet1 Member=Component RP9 10k
+Added Member To Class: ClassName=Sheet1 Member=Component SW1 4-1437565-2
+Added Member To Class: ClassName=Sheet1 Member=Component SW2 4-1437565-2
+Added Member To Class: ClassName=Sheet1 Member=Component SW3 4-1437565-2
+Added Member To Class: ClassName=Sheet1 Member=Component TP1 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP2 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP3 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP4 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP5 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP6 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP7 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP13 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP14 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP15 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP16 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP17 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP18 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP19 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP20 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP21 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP22 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP23 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP24 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP25 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP26 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP27 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP28 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP29 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP30 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP31 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP32 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP33 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP34 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP35 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP36 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP37 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP38 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP39 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP40 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP41 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP42 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP43 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP44 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP45 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP46 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP47 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP48 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP49 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP50 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP51 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP52 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP53 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP54 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP55 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP56 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP57 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP58 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP59 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP60 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP61 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP62 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP63 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP64 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP65 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP66 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP67 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP68 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP69 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component TP70 Test_Point_PCB
+Added Member To Class: ClassName=Sheet1 Member=Component U13 ACS758
+Added Member To Class: ClassName=Sheet1 Member=Component VT1 IRF3205
+Added Member To Class: ClassName=Sheet1 Member=Component VT2 IRF3205
+Added Member To Class: ClassName=Sheet1 Member=Component VT3 IRF3205
+Added Member To Class: ClassName=Sheet1 Member=Component VT4 IRF3205
+Added Member To Class: ClassName=Sheet1 Member=Component VT5 IRF3205
+Added Member To Class: ClassName=Sheet1 Member=Component VT6 IRF3205
+Added Member To Class: ClassName=Sheet1 Member=Component VT7 IRF3205
+Added Member To Class: ClassName=Sheet1 Member=Component VT8 IRF3205
+Added Member To Class: ClassName=Sheet1 Member=Component VT9 IRF3205
+Added Member To Class: ClassName=Sheet1 Member=Component VT10 IRF3205
+Added Member To Class: ClassName=Sheet1 Member=Component VT11 IRF3205
+Added Member To Class: ClassName=Sheet1 Member=Component VT12 IRF3205
+Added Member To Class: ClassName=Sheet1 Member=Component VT13 IRF3205
+Added Member To Class: ClassName=Sheet1 Member=Component VT14 IRF3205
+Added Member To Class: ClassName=Sheet1 Member=Component VT15 IRF3205
+Added Member To Class: ClassName=Sheet1 Member=Component VT16 IRF3205
