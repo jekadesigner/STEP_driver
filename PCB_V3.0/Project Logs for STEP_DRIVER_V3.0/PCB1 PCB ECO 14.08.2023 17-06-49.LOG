@@ -1,4 +1,0 @@
-Change Component Footprint: Designator=R120 Old Footprint=FP-CRCW0805-e3-IPC_B New Footprint=FP-CRCW0805-e3-IPC_B
-Added Component: Designator=U18(FP-C04-091-OT-MFG)
-Added Pin To Net: NetName=GND Pin=R13-1
-Added Pin To Net: NetName=GND Pin=R79-1
