@@ -262,7 +262,7 @@ GenerateClassCluster=0
 DocumentUniqueId=DSXQHNMS
 
 [Document14]
-DocumentPath=PCB1.PcbDoc
+DocumentPath=STEP_DRIVER_V3.0.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -279,7 +279,7 @@ GenerateClassCluster=0
 DocumentUniqueId=REOACJNG
 
 [Document15]
-DocumentPath=Sheet1.SchDoc
+DocumentPath=STEP_DRIVER_V3.0.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -1111,6 +1111,40 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HYXYODRL
 
+[Document64]
+DocumentPath=LIBS\MyTest\XX.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PNSFERKM
+
+[Document65]
+DocumentPath=LIBS\MyTest\XX.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=GVGWMOBT
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -1230,7 +1264,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=NPI23FAA8 (HP LaserJet MFP M426dw)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1330,7 +1364,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=NPI23FAA8 (HP LaserJet MFP M426dw)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=NC Drill
 OutputName1=NC Drill Files

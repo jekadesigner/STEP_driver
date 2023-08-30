@@ -1,0 +1,29 @@
+Change Component Designator: OldDesignator=R? NewDesignator=R12
+Change Component Designator: OldDesignator=R? NewDesignator=R17
+Change Component Designator: OldDesignator=R? NewDesignator=R23
+Change Component Designator: OldDesignator=R? NewDesignator=R37
+Change Component Designator: OldDesignator=R? NewDesignator=R46
+Change Component Designator: OldDesignator=R? NewDesignator=R49
+Change Component Designator: OldDesignator=R? NewDesignator=R79
+Change Component Designator: OldDesignator=R? NewDesignator=R81
+Added Component: Designator=TP8(Test_Point)
+Added Component: Designator=TP66(Test_Point)
+Added Pin To Net: NetName=NetD16_1 Pin=TP8-1
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR12_2
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR17_2
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR23_2
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR37_2
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR46_2
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR49_2
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR79_2
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR81_2
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component R12 10K
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component R23 10K
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component R37 10K
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component R46 10K
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component R49 10K
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component R79 10K
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component R81 10K
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component TP8 Test_Point_PCB
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component TP66 Test_Point_PCB
+Added Room: Name=STEP_DRIVER_V3.0
