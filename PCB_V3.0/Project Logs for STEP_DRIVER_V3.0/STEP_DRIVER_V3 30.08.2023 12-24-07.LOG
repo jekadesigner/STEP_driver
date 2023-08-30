@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=NetD26_1 Pin=TP66-1
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component R17 10K
+Added Room: Name=STEP_DRIVER_V3.0
