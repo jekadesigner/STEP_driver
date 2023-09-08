@@ -1,0 +1,176 @@
+Change Component Footprint: Designator=LED? Old Footprint=Type 3mm New Footprint=Type 3mm
+Change Component Footprint: Designator=LED? Old Footprint=Type 3mm New Footprint=Type 3mm
+Change Component Designator: OldDesignator=LCD? NewDesignator=LCD1
+Change Component Designator: OldDesignator=LED? NewDesignator=LED1
+Change Component Designator: OldDesignator=LED? NewDesignator=LED2
+Change Component Designator: OldDesignator=P? NewDesignator=P1
+Change Component Designator: OldDesignator=P? NewDesignator=P2
+Change Component Designator: OldDesignator=P? NewDesignator=P3
+Change Component Designator: OldDesignator=Q? NewDesignator=Q1
+Change Component Designator: OldDesignator=Q? NewDesignator=Q2
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R2
+Change Component Designator: OldDesignator=R? NewDesignator=R4
+Change Component Designator: OldDesignator=R? NewDesignator=R5
+Change Component Designator: OldDesignator=SW? NewDesignator=SW1
+Change Component Designator: OldDesignator=SW? NewDesignator=SW2
+Change Component Designator: OldDesignator=SW? NewDesignator=SW3
+Change Component Designator: OldDesignator=SW? NewDesignator=SW4
+Change Component Description : Designator=R4 Old Description=RES Thick Film, 10k?, 1%, 0.125W, 100ppm/°C, 0805 New Description=RES Thick Film, 1k?, 1%, 0.125W, 100ppm/°C, 0805
+Added Component: Designator=J1(691101710002)
+Add component (AddParameter): Name = "Application"; Value = "Pressure Clamp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Terminal Blocks"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Website Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.we-online.com/redexpert/article/691101710002?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/redexpert/spec/691101710002?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "691101710002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Match Code"; Value = "WR-TBL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Modularity"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Max"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Min"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Horizontal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Box"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "16A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "250V"; VariantName = "[No Variations]"
+Added Component: Designator=J2(691101710002)
+Add component (AddParameter): Name = "Application"; Value = "Pressure Clamp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Terminal Blocks"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Website Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.we-online.com/redexpert/article/691101710002?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.we-online.com/redexpert/spec/691101710002?ad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "691101710002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Match Code"; Value = "WR-TBL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Modularity"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Max"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature Min"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Horizontal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Box"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "16A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "250V"; VariantName = "[No Variations]"
+Added Component: Designator=K1(OMRON-G2RL-24_V)
+Add component (AddParameter): Name = "Brand"; Value = "OmronElectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Coil Current"; Value = "16.7mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Coil Resistance"; Value = "1.44kOhms"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Coil Type"; Value = "Non-Latching"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Coil Voltage"; Value = "24V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Form"; Value = "DPDT(2FormC)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "SilverNickel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Termination"; Value = "Pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.omron.com/ecb/products/pdf/en-g2rl.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "03/2016"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Factory Pack Quantity"; Value = "20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "15.7mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "29mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Omron"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.omron.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Style"; Value = "ThroughHole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "ThroughHole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "8-Pin Through Hole Device, Body 28.8 x 12.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "G2RL-24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Consumption"; Value = "400mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product"; Value = "PowerRelays"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product Category"; Value = "GeneralPurposeRelays"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Details"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "G2RL-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "HighCurrent"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "12.7mm"; VariantName = "[No Variations]"
+Added Component: Designator=R3(FP-CRCW0805-e3-MFG)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Composition"; Value = "Thick Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.45mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Military Standard"; Value = "Not"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "5000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "125mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10kR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "100ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "150V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "150V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.000194oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "1.25mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=LCD1-0
+Added Pin To Net: NetName=GND Pin=LCD1-0
+Added Pin To Net: NetName=GND Pin=LCD1-0
+Added Pin To Net: NetName=GND Pin=LCD1-0
+Added Pin To Net: NetName=GND Pin=LCD1-0
+Change Net Name : Old Net Name=NetLCD?_1 New Net Name=NetLCD1_1
+Change Net Name : Old Net Name=NetLCD?_2 New Net Name=NetLCD1_2
+Change Net Name : Old Net Name=NetLCD?_3 New Net Name=NetLCD1_3
+Change Net Name : Old Net Name=NetLCD?_4 New Net Name=NetLCD1_4
+Change Net Name : Old Net Name=NetP?_1 New Net Name=NetP2_1
+Change Net Name : Old Net Name=NetP?_2 New Net Name=NetP2_2
+Change Net Name : Old Net Name=NetP?_3 New Net Name=NetP2_3
+Change Net Name : Old Net Name=NetP?_4 New Net Name=NetP3_4
+Change Net Name : Old Net Name=NetQ?_1 New Net Name=NetQ1_1
+Added Pin To Net: NetName=+5 Pin=K1-1
+Added Pin To Net: NetName=+5 Pin=R3-2
+Added Net: Name=+5
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-1
+Added Pin To Net: NetName=NetJ1_1 Pin=K1-6
+Added Net: Name=NetJ1_1
+Added Pin To Net: NetName=NetJ1_2 Pin=J1-2
+Added Pin To Net: NetName=NetJ1_2 Pin=K1-3
+Added Net: Name=NetJ1_2
+Added Pin To Net: NetName=NetJ2_1 Pin=J2-1
+Added Pin To Net: NetName=NetJ2_1 Pin=K1-2
+Added Net: Name=NetJ2_1
+Added Pin To Net: NetName=NetJ2_2 Pin=J2-2
+Added Pin To Net: NetName=NetJ2_2 Pin=K1-7
+Added Net: Name=NetJ2_2
+Added Pin To Net: NetName=NetK1_8 Pin=K1-8
+Added Pin To Net: NetName=NetK1_8 Pin=LED2-1
+Added Pin To Net: NetName=NetK1_8 Pin=Q2-3
+Added Net: Name=NetK1_8
+Added Pin To Net: NetName=NetLED1_1 Pin=LED1-1
+Added Pin To Net: NetName=NetLED1_1 Pin=Q1-3
+Added Net: Name=NetLED1_1
+Added Pin To Net: NetName=NetLED2_2 Pin=LED2-2
+Added Pin To Net: NetName=NetLED2_2 Pin=R3-1
+Added Net: Name=NetLED2_2
+Added Pin To Net: NetName=NetP3_1 Pin=P3-1
+Added Pin To Net: NetName=NetP3_1 Pin=R4-1
+Added Net: Name=NetP3_1
+Added Pin To Net: NetName=NetP3_2 Pin=P3-2
+Added Pin To Net: NetName=NetP3_2 Pin=R1-1
+Added Net: Name=NetP3_2
+Added Pin To Net: NetName=NetQ2_1 Pin=Q2-1
+Added Pin To Net: NetName=NetQ2_1 Pin=R4-2
+Added Pin To Net: NetName=NetQ2_1 Pin=R5-2
+Added Net: Name=NetQ2_1
+Added Member To Class: ClassName=User_Interface Member=Component J1 691101710002
+Added Member To Class: ClassName=User_Interface Member=Component J2 691101710002
+Added Member To Class: ClassName=User_Interface Member=Component K1 G2RL-24-DC24
+Added Member To Class: ClassName=User_Interface Member=Component LED2 151033BS03000
+Added Member To Class: ClassName=User_Interface Member=Component P1 62000411622
+Added Member To Class: ClassName=User_Interface Member=Component P3 62000411622
+Added Member To Class: ClassName=User_Interface Member=Component Q2 BC847B
+Added Member To Class: ClassName=User_Interface Member=Component R1 1K
+Added Member To Class: ClassName=User_Interface Member=Component R2 10K
+Added Member To Class: ClassName=User_Interface Member=Component R3 200
+Added Member To Class: ClassName=User_Interface Member=Component R5 10K
+Added Member To Class: ClassName=User_Interface Member=Component SW1 430156043726
+Added Member To Class: ClassName=User_Interface Member=Component SW3 430156043726
+Added Member To Class: ClassName=User_Interface Member=Component SW4 430156043726
