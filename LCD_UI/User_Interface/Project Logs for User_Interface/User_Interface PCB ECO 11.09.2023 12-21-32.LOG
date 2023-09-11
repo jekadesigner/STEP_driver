@@ -1,0 +1,12 @@
+Change Component Footprint: Designator=LED11 Old Footprint=Type 3mm New Footprint=Type 3mm
+Change Component Footprint: Designator=LED12 Old Footprint=Type 3mm New Footprint=Type 3mm
+Change Component Footprint: Designator=LED13 Old Footprint=Type 3mm New Footprint=Type 3mm
+Change Component Footprint: Designator=LED14 Old Footprint=Type 3mm New Footprint=Type 3mm
+Change Component Footprint: Designator=LED15 Old Footprint=Type 3mm New Footprint=Type 3mm
+Change Component Footprint: Designator=LED16 Old Footprint=Type 3mm New Footprint=Type 3mm
+Change Component Footprint: Designator=LED17 Old Footprint=Type 3mm New Footprint=Type 3mm
+Change Component Footprint: Designator=LED18 Old Footprint=Type 3mm New Footprint=Type 3mm
+Added Net: Name=NetP5_1
+Added Net: Name=NetP5_2
+Added Net: Name=NetP5_3
+Added Net: Name=NetP5_4
