@@ -1,0 +1,104 @@
+Change Component Footprint: Designator=LED3 Old Footprint=Type 3mm New Footprint=Type 3mm
+Change Component Footprint: Designator=LED4 Old Footprint=Type 3mm New Footprint=Type 3mm
+Change Component Footprint: Designator=LED5 Old Footprint=Type 3mm New Footprint=Type 3mm
+Change Component Footprint: Designator=LED6 Old Footprint=Type 3mm New Footprint=Type 3mm
+Change Component Footprint: Designator=LED7 Old Footprint=Type 3mm New Footprint=Type 3mm
+Change Component Footprint: Designator=LED8 Old Footprint=Type 3mm New Footprint=Type 3mm
+Change Component Footprint: Designator=LED9 Old Footprint=Type 3mm New Footprint=Type 3mm
+Change Component Footprint: Designator=LED10 Old Footprint=Type 3mm New Footprint=Type 3mm
+Added Component: Designator=LED11(Type 3mm)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/151033BS03000.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Emitting color"; Value = "Blue"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wuerth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "Type 3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "151033BS03000"; VariantName = "[No Variations]"
+Added Component: Designator=LED12(Type 3mm)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/151033BS03000.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Emitting color"; Value = "Blue"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wuerth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "Type 3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "151033BS03000"; VariantName = "[No Variations]"
+Added Component: Designator=LED13(Type 3mm)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/151033BS03000.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Emitting color"; Value = "Blue"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wuerth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "Type 3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "151033BS03000"; VariantName = "[No Variations]"
+Added Component: Designator=LED14(Type 3mm)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/151033BS03000.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Emitting color"; Value = "Blue"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wuerth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "Type 3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "151033BS03000"; VariantName = "[No Variations]"
+Added Component: Designator=LED15(Type 3mm)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/151033BS03000.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Emitting color"; Value = "Blue"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wuerth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "Type 3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "151033BS03000"; VariantName = "[No Variations]"
+Added Component: Designator=LED16(Type 3mm)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/151033BS03000.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Emitting color"; Value = "Blue"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wuerth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "Type 3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "151033BS03000"; VariantName = "[No Variations]"
+Added Component: Designator=LED17(Type 3mm)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/151033BS03000.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Emitting color"; Value = "Blue"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wuerth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "Type 3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "151033BS03000"; VariantName = "[No Variations]"
+Added Component: Designator=LED18(Type 3mm)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/151033BS03000.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Emitting color"; Value = "Blue"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wuerth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "Type 3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "151033BS03000"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetLED11_1 Pin=LED11-1
+Added Pin To Net: NetName=NetLED11_2 Pin=LED11-2
+Added Pin To Net: NetName=NetLED12_1 Pin=LED12-1
+Added Pin To Net: NetName=NetLED11_2 Pin=LED12-2
+Added Pin To Net: NetName=NetLED13_1 Pin=LED13-1
+Added Pin To Net: NetName=NetLED13_2 Pin=LED13-2
+Added Pin To Net: NetName=NetLED14_1 Pin=LED14-1
+Added Pin To Net: NetName=NetLED13_2 Pin=LED14-2
+Added Pin To Net: NetName=NetJ5_2 Pin=LED15-1
+Added Pin To Net: NetName=NetLED11_1 Pin=LED15-2
+Added Pin To Net: NetName=NetJ5_2 Pin=LED16-1
+Added Pin To Net: NetName=NetLED12_1 Pin=LED16-2
+Added Pin To Net: NetName=NetJ5_2 Pin=LED17-1
+Added Pin To Net: NetName=NetLED13_1 Pin=LED17-2
+Added Pin To Net: NetName=NetJ5_2 Pin=LED18-1
+Added Pin To Net: NetName=NetLED14_1 Pin=LED18-2
+Added Member To Class: ClassName=User_Interface Member=Component LED11 151033BS03000
+Added Member To Class: ClassName=User_Interface Member=Component LED12 151033BS03000
+Added Member To Class: ClassName=User_Interface Member=Component LED13 151033BS03000
+Added Member To Class: ClassName=User_Interface Member=Component LED14 151033BS03000
+Added Member To Class: ClassName=User_Interface Member=Component LED15 151033BS03000
+Added Member To Class: ClassName=User_Interface Member=Component LED16 151033BS03000
+Added Member To Class: ClassName=User_Interface Member=Component LED17 151033BS03000
+Added Member To Class: ClassName=User_Interface Member=Component LED18 151033BS03000
