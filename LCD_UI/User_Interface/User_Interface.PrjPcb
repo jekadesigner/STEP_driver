@@ -41,6 +41,74 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=LIBS\Test_Point\Test_Point.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BSUWXYSD
+
+[Document2]
+DocumentPath=LIBS\Test_Point\Test_Point.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=DHEDDXTT
+
+[Document3]
+DocumentPath=LIBS\ACS758\ACS758.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KJNXGCRV
+
+[Document4]
+DocumentPath=LIBS\ACS758\ACS758.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=OKBUHQVE
+
+[Document5]
 DocumentPath=User_Interface.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -57,7 +125,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZAKSFCIN
 
-[Document2]
+[Document6]
 DocumentPath=LIBS\LCD2004_I2C\LCD2004_I2C.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -74,7 +142,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ODIEFWPU
 
-[Document3]
+[Document7]
 DocumentPath=LIBS\LCD2004_I2C\LCD2004_I2C.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -91,7 +159,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TBMDVHTB
 
-[Document4]
+[Document8]
 DocumentPath=User_Interface.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -227,7 +295,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=NPI23FAA8 (HP LaserJet MFP M426dw)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
