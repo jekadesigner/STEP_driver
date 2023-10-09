@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=LED1 NewDesignator=LED3
+Change Component Designator: OldDesignator=LED2 NewDesignator=LED4
+Added Pin To Net: NetName=+5 Pin=D23-8
+Added Room: Name=STEP_DRIVER_V3.0
