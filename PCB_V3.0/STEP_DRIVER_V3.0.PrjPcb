@@ -908,6 +908,23 @@ GenerateClassCluster=0
 DocumentUniqueId=LVFMMWJJ
 
 [Document52]
+DocumentPath=LIBS\PASIVE_COMPONENTS\CAP-NON-POLAR.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LJLWHIOA
+
+[Document53]
 DocumentPath=LIBS\CAP 1800uF_63V\2022-08-15_12-58-19\ECA-1JHG222.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -924,7 +941,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WMNOQQRQ
 
-[Document53]
+[Document54]
 DocumentPath=LIBS\Custom dr&tr\Coil_drosel.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -941,7 +958,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VXWQXARO
 
-[Document54]
+[Document55]
 DocumentPath=LIBS\Custom dr&tr\Coil_drosel.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -958,7 +975,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YOBTYLVJ
 
-[Document55]
+[Document56]
 DocumentPath=LIBS\Connectors\DEGSON_DG25.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -975,7 +992,24 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JLJULSUI
 
-[Document56]
+[Document57]
+DocumentPath=LIBS\PASIVE_COMPONENTS\CAP-1206.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CWOXKQXB
+
+[Document58]
 DocumentPath=LIBS\Connectors\DEGSON_DG25.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -992,7 +1026,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DHRARMGX
 
-[Document57]
+[Document59]
 DocumentPath=LIBS\ACS758\ACS758.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1009,7 +1043,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OKBUHQVE
 
-[Document58]
+[Document60]
 DocumentPath=LIBS\ACS758\ACS758.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1026,7 +1060,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KJNXGCRV
 
-[Document59]
+[Document61]
 DocumentPath=LIBS\Connectors\KLS8-M3.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1043,7 +1077,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MOGSNYSG
 
-[Document60]
+[Document62]
 DocumentPath=LIBS\Connectors\KLS8-M3.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1060,7 +1094,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TNPRPDZK
 
-[Document61]
+[Document63]
 DocumentPath=LIBS\Passive_components\1000uF_10V_Size_F.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1077,7 +1111,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JPCQKAIP
 
-[Document62]
+[Document64]
 DocumentPath=LIBS\MCP6001T-SOT23-5\MCP6001T.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1094,7 +1128,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QGXMLXIF
 
-[Document63]
+[Document65]
 DocumentPath=LIBS\MCP6001T-SOT23-5\SOT-23-5.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1111,7 +1145,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HYXYODRL
 
-[Document64]
+[Document66]
 DocumentPath=LIBS\MyTest\XX.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1128,7 +1162,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PNSFERKM
 
-[Document65]
+[Document67]
 DocumentPath=LIBS\MyTest\XX.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1268,7 +1302,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=TSC TE200
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]

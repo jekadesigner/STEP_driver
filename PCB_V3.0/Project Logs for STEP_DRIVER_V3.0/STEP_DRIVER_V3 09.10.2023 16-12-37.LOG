@@ -1,0 +1,196 @@
+Removed Pin From Net: NetName=GND Pin=C4-1
+Removed Pin From Net: NetName=NetC7_1 Pin=C7-1
+Removed Pin From Net: NetName=NetC7_2 Pin=C7-2
+Removed Pin From Net: NetName=NetC9_1 Pin=C9-1
+Removed Pin From Net: NetName=NetC9_2 Pin=C9-2
+Removed Pin From Net: NetName=NetC11_1 Pin=C11-1
+Removed Pin From Net: NetName=NetC11_2 Pin=C11-2
+Removed Pin From Net: NetName=NetC12_1 Pin=C12-1
+Removed Pin From Net: NetName=NetC12_2 Pin=C12-2
+Removed Pin From Net: NetName=NetC13_1 Pin=C13-1
+Removed Pin From Net: NetName=NetC13_2 Pin=C13-2
+Removed Pin From Net: NetName=NetC14_1 Pin=C14-1
+Removed Pin From Net: NetName=NetC14_2 Pin=C14-2
+Removed Pin From Net: NetName=NetC15_1 Pin=C15-1
+Removed Pin From Net: NetName=NetC15_2 Pin=C15-2
+Removed Pin From Net: NetName=NetC16_1 Pin=C16-1
+Removed Pin From Net: NetName=NetC16_2 Pin=C16-2
+Removed Pin From Net: NetName=NetC9_2 Pin=C24-1
+Removed Pin From Net: NetName=NetC7_2 Pin=C25-1
+Removed Pin From Net: NetName=VCC Pin=C29-1
+Removed Pin From Net: NetName=GND Pin=C29-2
+Removed Pin From Net: NetName=VCC Pin=C30-1
+Removed Pin From Net: NetName=GND Pin=C30-2
+Removed Pin From Net: NetName=VCC Pin=C31-1
+Removed Pin From Net: NetName=GND Pin=C31-2
+Removed Pin From Net: NetName=VCC Pin=C32-1
+Removed Pin From Net: NetName=GND Pin=C32-2
+Removed Pin From Net: NetName=VCC Pin=C33-1
+Removed Pin From Net: NetName=GND Pin=C33-2
+Removed Pin From Net: NetName=VCC Pin=C34-1
+Removed Pin From Net: NetName=GND Pin=C34-2
+Removed Pin From Net: NetName=VCC Pin=C35-1
+Removed Pin From Net: NetName=GND Pin=C35-2
+Removed Pin From Net: NetName=VCC Pin=C36-1
+Removed Pin From Net: NetName=GND Pin=C36-2
+Removed Pin From Net: NetName=VCC Pin=C37-1
+Removed Pin From Net: NetName=GND Pin=C37-2
+Removed Pin From Net: NetName=NetC13_2 Pin=C41-1
+Removed Pin From Net: NetName=NetC14_2 Pin=C42-1
+Removed Pin From Net: NetName=VCC Pin=C48-1
+Removed Pin From Net: NetName=GND Pin=C48-2
+Removed Pin From Net: NetName=GND Pin=CR2-2
+Removed Pin From Net: NetName=GND Pin=J2-1
+Removed Pin From Net: NetName=VCC Pin=L1-2
+Removed Pin From Net: NetName=GND Pin=R1-1
+Removed Pin From Net: NetName=VCC Pin=RP1-1
+Removed Pin From Net: NetName=GND Pin=U2-3
+Removed Pin From Net: NetName=GND Pin=U2-5
+Removed Pin From Net: NetName=GND Pin=U2-6
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=C42
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=C48
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=CR1
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=CR2
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=L1
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=RP1
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=TP1
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=TP2
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=TP7
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=U2
+Change Component Footprint: Designator=C5 Old Footprint=1000uF_10V_Size_F New Footprint=CAPPOL-12x25
+Change Component Footprint: Designator=C4 Old Footprint=1500uF_100V New Footprint=CAPPOL-12x25
+Change Component Comment : Designator=C5 Old Comment=220uF_50V New Comment=25V 2200uF
+Change Component Comment : Designator=C4 Old Comment=1500uF_100V New Comment=25V 2200uF
+Change Component Comment : Designator=C29 Old Comment=C0805C224K5RACTU New Comment=CAP-NON-POLAR
+Change Component Comment : Designator=C30 Old Comment=C0805C224K5RACTU New Comment=CAP-NON-POLAR
+Change Component Comment : Designator=C31 Old Comment=C0805C224K5RACTU New Comment=CAP-NON-POLAR
+Change Component Comment : Designator=C32 Old Comment=C0805C224K5RACTU New Comment=CAP-NON-POLAR
+Change Component Comment : Designator=C33 Old Comment=C0805C224K5RACTU New Comment=CAP-NON-POLAR
+Change Component Comment : Designator=C34 Old Comment=C0805C224K5RACTU New Comment=CAP-NON-POLAR
+Change Component Comment : Designator=C35 Old Comment=C0805C224K5RACTU New Comment=CAP-NON-POLAR
+Change Component Comment : Designator=C36 Old Comment=C0805C224K5RACTU New Comment=CAP-NON-POLAR
+Change Component Comment : Designator=C37 Old Comment=ECA-1JHG222 New Comment=CAP-NON-POLAR
+Change Component Comment : Designator=C7 Old Comment=GRM21BR61C106KE15L New Comment=CAP-NON-POLAR
+Change Component Comment : Designator=C9 Old Comment=GRM21BR61C106KE15L New Comment=CAP-NON-POLAR
+Change Component Comment : Designator=C11 Old Comment=GRM21BR61C106KE15L New Comment=CAP-NON-POLAR
+Change Component Comment : Designator=C12 Old Comment=GRM21BR61C106KE15L New Comment=CAP-NON-POLAR
+Change Component Comment : Designator=C13 Old Comment=GRM21BR61C106KE15L New Comment=CAP-NON-POLAR
+Change Component Comment : Designator=C14 Old Comment=GRM21BR61C106KE15L New Comment=CAP-NON-POLAR
+Change Component Comment : Designator=C15 Old Comment=GRM21BR61C106KE15L New Comment=CAP-NON-POLAR
+Change Component Comment : Designator=C16 Old Comment=GRM21BR61C106KE15L New Comment=CAP-NON-POLAR
+Change Component Comment : Designator=C24 Old Comment=GRM21BR61C106KE15L New Comment=CAP-NON-POLAR
+Change Component Comment : Designator=C25 Old Comment=GRM21BR61C106KE15L New Comment=CAP-NON-POLAR
+Change Component Comment : Designator=C41 Old Comment=GRM21BR61C106KE15L New Comment=CAP-NON-POLAR
+Change Managed Component Library Link : Designator=C7 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=96E1FC29-823C-4DFE-A5F9-AD0FB27C16C2 New ItemGUID= Old RevisionGUID=D769A791-3307-4056-9341-90AFE26D35D2 New RevisionGUID=
+Change Managed Component Library Link : Designator=C9 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=96E1FC29-823C-4DFE-A5F9-AD0FB27C16C2 New ItemGUID= Old RevisionGUID=D769A791-3307-4056-9341-90AFE26D35D2 New RevisionGUID=
+Change Managed Component Library Link : Designator=C11 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=96E1FC29-823C-4DFE-A5F9-AD0FB27C16C2 New ItemGUID= Old RevisionGUID=D769A791-3307-4056-9341-90AFE26D35D2 New RevisionGUID=
+Change Managed Component Library Link : Designator=C12 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=96E1FC29-823C-4DFE-A5F9-AD0FB27C16C2 New ItemGUID= Old RevisionGUID=D769A791-3307-4056-9341-90AFE26D35D2 New RevisionGUID=
+Change Managed Component Library Link : Designator=C13 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=96E1FC29-823C-4DFE-A5F9-AD0FB27C16C2 New ItemGUID= Old RevisionGUID=D769A791-3307-4056-9341-90AFE26D35D2 New RevisionGUID=
+Change Managed Component Library Link : Designator=C14 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=96E1FC29-823C-4DFE-A5F9-AD0FB27C16C2 New ItemGUID= Old RevisionGUID=D769A791-3307-4056-9341-90AFE26D35D2 New RevisionGUID=
+Change Managed Component Library Link : Designator=C15 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=96E1FC29-823C-4DFE-A5F9-AD0FB27C16C2 New ItemGUID= Old RevisionGUID=D769A791-3307-4056-9341-90AFE26D35D2 New RevisionGUID=
+Change Managed Component Library Link : Designator=C16 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=96E1FC29-823C-4DFE-A5F9-AD0FB27C16C2 New ItemGUID= Old RevisionGUID=D769A791-3307-4056-9341-90AFE26D35D2 New RevisionGUID=
+Change Managed Component Library Link : Designator=C24 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=96E1FC29-823C-4DFE-A5F9-AD0FB27C16C2 New ItemGUID= Old RevisionGUID=D769A791-3307-4056-9341-90AFE26D35D2 New RevisionGUID=
+Change Managed Component Library Link : Designator=C25 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=96E1FC29-823C-4DFE-A5F9-AD0FB27C16C2 New ItemGUID= Old RevisionGUID=D769A791-3307-4056-9341-90AFE26D35D2 New RevisionGUID=
+Change Managed Component Library Link : Designator=C29 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=B9488122-88ED-4EC5-84F7-203174F09D93 New ItemGUID= Old RevisionGUID=3073E26B-F5D9-41D4-961E-5BC2B966745A New RevisionGUID=
+Change Managed Component Library Link : Designator=C30 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=B9488122-88ED-4EC5-84F7-203174F09D93 New ItemGUID= Old RevisionGUID=3073E26B-F5D9-41D4-961E-5BC2B966745A New RevisionGUID=
+Change Managed Component Library Link : Designator=C31 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=B9488122-88ED-4EC5-84F7-203174F09D93 New ItemGUID= Old RevisionGUID=3073E26B-F5D9-41D4-961E-5BC2B966745A New RevisionGUID=
+Change Managed Component Library Link : Designator=C32 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=B9488122-88ED-4EC5-84F7-203174F09D93 New ItemGUID= Old RevisionGUID=3073E26B-F5D9-41D4-961E-5BC2B966745A New RevisionGUID=
+Change Managed Component Library Link : Designator=C33 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=B9488122-88ED-4EC5-84F7-203174F09D93 New ItemGUID= Old RevisionGUID=3073E26B-F5D9-41D4-961E-5BC2B966745A New RevisionGUID=
+Change Managed Component Library Link : Designator=C34 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=B9488122-88ED-4EC5-84F7-203174F09D93 New ItemGUID= Old RevisionGUID=3073E26B-F5D9-41D4-961E-5BC2B966745A New RevisionGUID=
+Change Managed Component Library Link : Designator=C35 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=B9488122-88ED-4EC5-84F7-203174F09D93 New ItemGUID= Old RevisionGUID=3073E26B-F5D9-41D4-961E-5BC2B966745A New RevisionGUID=
+Change Managed Component Library Link : Designator=C36 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=B9488122-88ED-4EC5-84F7-203174F09D93 New ItemGUID= Old RevisionGUID=3073E26B-F5D9-41D4-961E-5BC2B966745A New RevisionGUID=
+Change Managed Component Library Link : Designator=C41 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=96E1FC29-823C-4DFE-A5F9-AD0FB27C16C2 New ItemGUID= Old RevisionGUID=D769A791-3307-4056-9341-90AFE26D35D2 New RevisionGUID=
+Change component parameters: Designator = "C37" ("C37"); Footprint = "PCAP_18x355_PAN"; UniqueID = "\LUQOQFFI" ("\LUQOQFFI")
+Change component parameters: Designator = "C7" ("C7"); Footprint = "FP-GRM21B-0_1-IPC_C"; UniqueID = "\IQEHNWOV" ("\IQEHNWOV")
+Change component parameters: Designator = "C9" ("C9"); Footprint = "FP-GRM21B-0_1-IPC_C"; UniqueID = "\HAOICKWD" ("\HAOICKWD")
+Change component parameters: Designator = "C11" ("C11"); Footprint = "FP-GRM21B-0_1-IPC_C"; UniqueID = "\FPXLTTUJ" ("\FPXLTTUJ")
+Change component parameters: Designator = "C12" ("C12"); Footprint = "FP-GRM21B-0_1-IPC_C"; UniqueID = "\YPXVXRYJ" ("\YPXVXRYJ")
+Change component parameters: Designator = "C13" ("C13"); Footprint = "FP-GRM21B-0_1-IPC_C"; UniqueID = "\VSTLTRNS" ("\VSTLTRNS")
+Change component parameters: Designator = "C14" ("C14"); Footprint = "FP-GRM21B-0_1-IPC_C"; UniqueID = "\UACQLRSW" ("\UACQLRSW")
+Change component parameters: Designator = "C15" ("C15"); Footprint = "FP-GRM21B-0_1-IPC_C"; UniqueID = "\ZVACEUZE" ("\ZVACEUZE")
+Change component parameters: Designator = "C16" ("C16"); Footprint = "FP-GRM21B-0_1-IPC_C"; UniqueID = "\ZTGKBTKE" ("\ZTGKBTKE")
+Change component parameters: Designator = "C24" ("C24"); Footprint = "FP-GRM21B-0_1-IPC_C"; UniqueID = "\RURLYOVA" ("\RURLYOVA")
+Change component parameters: Designator = "C25" ("C25"); Footprint = "FP-GRM21B-0_1-IPC_C"; UniqueID = "\UWOOKPGC" ("\UWOOKPGC")
+Change component parameters: Designator = "C41" ("C41"); Footprint = "FP-GRM21B-0_1-IPC_C"; UniqueID = "\DRTOOOMX" ("\DRTOOOMX")
+Change component parameters: Designator = "C29" ("C29"); Footprint = "FP-C0805C-DN-MFG"; UniqueID = "\FXANAQNS" ("\FXANAQNS")
+Change component parameters: Designator = "C30" ("C30"); Footprint = "FP-C0805C-DN-MFG"; UniqueID = "\AGOYTUCM" ("\AGOYTUCM")
+Change component parameters: Designator = "C31" ("C31"); Footprint = "FP-C0805C-DN-MFG"; UniqueID = "\CIPSQWIK" ("\CIPSQWIK")
+Change component parameters: Designator = "C32" ("C32"); Footprint = "FP-C0805C-DN-MFG"; UniqueID = "\FSOBMPVI" ("\FSOBMPVI")
+Change component parameters: Designator = "C33" ("C33"); Footprint = "FP-C0805C-DN-MFG"; UniqueID = "\AJUVSWBU" ("\AJUVSWBU")
+Change component parameters: Designator = "C34" ("C34"); Footprint = "FP-C0805C-DN-MFG"; UniqueID = "\WKNSRLHO" ("\WKNSRLHO")
+Change component parameters: Designator = "C35" ("C35"); Footprint = "FP-C0805C-DN-MFG"; UniqueID = "\QQKDLDED" ("\QQKDLDED")
+Change component parameters: Designator = "C36" ("C36"); Footprint = "FP-C0805C-DN-MFG"; UniqueID = "\VQKMZPHJ" ("\VQKMZPHJ")
+Added Pin To Net: NetName=VCC Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=VCC Pin=C7-2
+Added Pin To Net: NetName=GND Pin=C9-1
+Added Pin To Net: NetName=VCC Pin=C9-2
+Added Pin To Net: NetName=NetC9_2 Pin=C11-1
+Added Pin To Net: NetName=NetC9_1 Pin=C11-2
+Added Pin To Net: NetName=NetC7_2 Pin=C12-1
+Added Pin To Net: NetName=NetC7_1 Pin=C12-2
+Added Pin To Net: NetName=NetC9_2 Pin=C13-2
+Added Pin To Net: NetName=NetC7_2 Pin=C14-2
+Added Pin To Net: NetName=GND Pin=C15-1
+Added Pin To Net: NetName=VCC Pin=C15-2
+Added Pin To Net: NetName=VCC Pin=C16-2
+Added Pin To Net: NetName=NetC12_2 Pin=C24-1
+Added Pin To Net: NetName=NetC12_1 Pin=C24-2
+Added Pin To Net: NetName=NetC11_2 Pin=C25-1
+Added Pin To Net: NetName=NetC11_1 Pin=C25-2
+Added Pin To Net: NetName=GND Pin=C29-1
+Added Pin To Net: NetName=VCC Pin=C29-2
+Added Pin To Net: NetName=NetC13_2 Pin=C30-1
+Added Pin To Net: NetName=NetC13_1 Pin=C30-2
+Added Pin To Net: NetName=GND Pin=C31-1
+Added Pin To Net: NetName=VCC Pin=C31-2
+Added Pin To Net: NetName=NetC14_2 Pin=C32-1
+Added Pin To Net: NetName=NetC14_1 Pin=C32-2
+Added Pin To Net: NetName=NetC13_2 Pin=C33-2
+Added Pin To Net: NetName=NetC14_2 Pin=C34-2
+Added Pin To Net: NetName=GND Pin=C35-1
+Added Pin To Net: NetName=VCC Pin=C35-2
+Added Pin To Net: NetName=NetC15_2 Pin=C36-1
+Added Pin To Net: NetName=NetC15_1 Pin=C36-2
+Added Pin To Net: NetName=GND Pin=C37-1
+Added Pin To Net: NetName=VCC Pin=C37-2
+Added Pin To Net: NetName=NetC16_1 Pin=C41-2
+Added Pin To Net: NetName=+5 Pin=D23-8
+Added Pin To Net: NetName=GND Pin=J2-2
+Change Net Name : Old Net Name=NetC7_1 New Net Name=NetC12_2
+Change Net Name : Old Net Name=NetC7_2 New Net Name=NetC12_1
+Change Net Name : Old Net Name=NetC9_1 New Net Name=NetC11_2
+Change Net Name : Old Net Name=NetC9_2 New Net Name=NetC11_1
+Change Net Name : Old Net Name=NetC11_1 New Net Name=NetC25_2
+Change Net Name : Old Net Name=NetC11_2 New Net Name=NetC25_1
+Change Net Name : Old Net Name=NetC12_1 New Net Name=NetC24_2
+Change Net Name : Old Net Name=NetC12_2 New Net Name=NetC24_1
+Change Net Name : Old Net Name=NetC13_1 New Net Name=NetC30_2
+Change Net Name : Old Net Name=NetC13_2 New Net Name=NetC30_1
+Change Net Name : Old Net Name=NetC14_1 New Net Name=NetC32_2
+Change Net Name : Old Net Name=NetC14_2 New Net Name=NetC32_1
+Change Net Name : Old Net Name=NetC15_1 New Net Name=NetC36_2
+Change Net Name : Old Net Name=NetC15_2 New Net Name=NetC36_1
+Change Net Name : Old Net Name=NetC16_1 New Net Name=NetC41_2
+Change Net Name : Old Net Name=NetC16_2 New Net Name=NetD45_2
+Added Pin To Net: NetName=NetC13_1 Pin=C13-1
+Added Pin To Net: NetName=NetC13_1 Pin=R58-1
+Added Net: Name=NetC13_1
+Added Pin To Net: NetName=NetC14_1 Pin=C14-1
+Added Pin To Net: NetName=NetC14_1 Pin=R61-1
+Added Net: Name=NetC14_1
+Added Pin To Net: NetName=NetC33_1 Pin=C33-1
+Added Pin To Net: NetName=NetC33_1 Pin=R120-1
+Added Net: Name=NetC33_1
+Added Pin To Net: NetName=NetC34_1 Pin=C34-1
+Added Pin To Net: NetName=NetC34_1 Pin=R62-1
+Added Net: Name=NetC34_1
+Added Pin To Net: NetName=NetCR3_1 Pin=CR3-1
+Added Pin To Net: NetName=NetCR3_1 Pin=J2-1
+Added Pin To Net: NetName=NetCR3_1 Pin=L2-2
+Added Net: Name=NetCR3_1
+Added Pin To Net: NetName=NetJ12_1 Pin=J12-1
+Added Pin To Net: NetName=NetJ12_1 Pin=L2-1
+Added Net: Name=NetJ12_1
+Added Room: Name=STEP_DRIVER_V3.0
