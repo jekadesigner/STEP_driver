@@ -228,6 +228,23 @@ GenerateClassCluster=0
 DocumentUniqueId=AFJASNKT
 
 [Document12]
+DocumentPath=4700uF_100V.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IJDIJRBU
+
+[Document13]
 DocumentPath=Res_Bourns_3296W-1-202LF_eec_MFG.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -244,7 +261,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TYFLHCGD
 
-[Document13]
+[Document14]
 DocumentPath=Res_Vishay_CRCW08050000Z0EA_eec_IPC_B.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -261,7 +278,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MYBMFNJF
 
-[Document14]
+[Document15]
 DocumentPath=CAP_Size_C.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -278,7 +295,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HBXNHHJN
 
-[Document15]
+[Document16]
 DocumentPath=RES0805.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -295,7 +312,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YXQCEBVQ
 
-[Document16]
+[Document17]
 DocumentPath=RES0805.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -312,7 +329,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HBXNHHJN
 
-[Document17]
+[Document18]
 DocumentPath=Res_Vishay_CRCW08050000Z0EA_eec_MFG.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -329,7 +346,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document18]
+[Document19]
 DocumentPath=RES_5W.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -346,7 +363,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document19]
+[Document20]
 DocumentPath=RES_5W.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -363,7 +380,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LQEITOAU
 
-[Document20]
+[Document21]
 DocumentPath=RES_0603_YAGEO.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -380,7 +397,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document21]
+[Document22]
 DocumentPath=RES_0603_YAGEO.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -513,7 +530,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=TSC TE200
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
