@@ -1,0 +1,4 @@
+Change Component DesignItemId : Designator=C14 Old DesignItemId=CAP-NON-POLAR New DesignItemId=
+Change Component Library : Designator=C14 Old Library=PASIVE_COMPONENTS.IntLib New Library=DEGSON_DG25.SchLib
+Added Pin To Net: NetName=+5V Pin=D23-8
+Added Room: Name=STEP_DRIVER_V3.0
