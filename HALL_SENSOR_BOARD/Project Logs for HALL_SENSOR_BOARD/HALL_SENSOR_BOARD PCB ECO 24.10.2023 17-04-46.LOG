@@ -1,0 +1,12 @@
+Added Component: Designator=R17(RES-0603)
+Added Component: Designator=R18(RES-0603)
+Added Component: Designator=R19(RES-0603)
+Added Component: Designator=R20(RES-0603)
+Added Pin To Net: NetName=NetC6_1 Pin=R17-1
+Added Pin To Net: NetName=OUT_1 Pin=R17-2
+Added Pin To Net: NetName=NetC7_1 Pin=R18-1
+Added Pin To Net: NetName=OUT_2 Pin=R18-2
+Added Pin To Net: NetName=NetC8_1 Pin=R19-1
+Added Pin To Net: NetName=OUT_3 Pin=R19-2
+Added Pin To Net: NetName=NetC9_1 Pin=R20-1
+Added Pin To Net: NetName=OUT_4 Pin=R20-2
