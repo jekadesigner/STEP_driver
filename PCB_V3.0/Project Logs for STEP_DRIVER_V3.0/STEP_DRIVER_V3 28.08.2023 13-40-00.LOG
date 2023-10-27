@@ -1,0 +1,16 @@
+Added Component: Designator=TP43(Test_Point)
+Added Component: Designator=TP44(Test_Point)
+Added Component: Designator=TP67(Test_Point)
+Added Component: Designator=TP68(Test_Point)
+Added Pin To Net: NetName=GND Pin=R13-1
+Added Pin To Net: NetName=GND Pin=R79-1
+Added Pin To Net: NetName=NetD32_2 Pin=TP43-1
+Added Pin To Net: NetName=NetD40_2 Pin=TP44-1
+Added Pin To Net: NetName=NetD36_2 Pin=TP67-1
+Added Pin To Net: NetName=NetD44_2 Pin=TP68-1
+Change Class Name : Old Net Name=Sheet1 New Net Name=STEP_DRIVER_V3.0
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component TP43 Test_Point_PCB
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component TP44 Test_Point_PCB
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component TP67 Test_Point_PCB
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component TP68 Test_Point_PCB
+Added Room: Name=STEP_DRIVER_V3.0

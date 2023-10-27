@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [HALL_SENSOR_BOARD.PrjPCB]
+   Generated File[HALL_SENSOR_BOARD.TXT]
+   Generated File[HALL_SENSOR_BOARD.LDP]
+   Generated File[HALL_SENSOR_BOARD.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 10:00:11 On 25.10.2023

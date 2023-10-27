@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=NetC50_2 Pin=U4-13
+Removed Pin From Net: NetName=NetC43_2 Pin=U4-14
+Removed Pin From Net: NetName=NetC44_2 Pin=U4-15
+Removed Pin From Net: NetName=NetR92_1 Pin=U4-16
+Removed Pin From Net: NetName=NetR91_1 Pin=U4-17
+Removed Pin From Net: NetName=NetC54_2 Pin=U4-18
+Removed Pin From Net: NetName=NetC52_2 Pin=U4-19
+Removed Pin From Net: NetName=NetC47_2 Pin=U4-20
+Added Pin To Net: NetName=NetC43_2 Pin=U4-13
+Added Pin To Net: NetName=NetC54_2 Pin=U4-14
+Added Pin To Net: NetName=NetC52_2 Pin=U4-15
+Added Pin To Net: NetName=NetC47_2 Pin=U4-16
+Added Pin To Net: NetName=NetC50_2 Pin=U4-17
+Added Pin To Net: NetName=NetR92_1 Pin=U4-18
+Added Pin To Net: NetName=NetR91_1 Pin=U4-19
+Added Pin To Net: NetName=NetC44_2 Pin=U4-20
+Added Room: Name=STEP_DRIVER_V3.0
