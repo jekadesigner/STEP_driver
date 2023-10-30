@@ -1,0 +1,126 @@
+Removed Pin From Net: NetName=NetC28_2 Pin=C28-2
+Removed Pin From Net: NetName=V_BAT Pin=D28-1
+Removed Pin From Net: NetName=NetC7_2 Pin=D28-2
+Removed Pin From Net: NetName=NetC7_2 Pin=D32-1
+Removed Pin From Net: NetName=NetD32_2 Pin=D32-2
+Removed Pin From Net: NetName=V_BAT Pin=D33-1
+Removed Pin From Net: NetName=NetC24_1 Pin=D33-2
+Removed Pin From Net: NetName=NetC24_1 Pin=D34-1
+Removed Pin From Net: NetName=NetD32_2 Pin=D34-2
+Removed Pin From Net: NetName=V_BAT Pin=D35-1
+Removed Pin From Net: NetName=NetC29_1 Pin=D35-2
+Removed Pin From Net: NetName=NetC29_1 Pin=D36-1
+Removed Pin From Net: NetName=NetD36_2 Pin=D36-2
+Removed Pin From Net: NetName=V_BAT Pin=D37-1
+Removed Pin From Net: NetName=NetC35_1 Pin=D37-2
+Removed Pin From Net: NetName=NetC35_1 Pin=D38-1
+Removed Pin From Net: NetName=NetD36_2 Pin=D38-2
+Removed Pin From Net: NetName=V_BAT Pin=D39-1
+Removed Pin From Net: NetName=NetC13_1 Pin=D39-2
+Removed Pin From Net: NetName=NetC13_1 Pin=D40-1
+Removed Pin From Net: NetName=NetD40_2 Pin=D40-2
+Removed Pin From Net: NetName=V_BAT Pin=D41-1
+Removed Pin From Net: NetName=NetC41_1 Pin=D41-2
+Removed Pin From Net: NetName=NetC41_1 Pin=D42-1
+Removed Pin From Net: NetName=NetD40_2 Pin=D42-2
+Removed Pin From Net: NetName=V_BAT Pin=D43-1
+Removed Pin From Net: NetName=NetC31_1 Pin=D43-2
+Removed Pin From Net: NetName=NetC31_1 Pin=D44-1
+Removed Pin From Net: NetName=NetD44_2 Pin=D44-2
+Removed Pin From Net: NetName=V_BAT Pin=D45-1
+Removed Pin From Net: NetName=NetC37_1 Pin=D45-2
+Removed Pin From Net: NetName=NetC37_1 Pin=D46-1
+Removed Pin From Net: NetName=NetD44_2 Pin=D46-2
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=D28
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=D32
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=D33
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=D34
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=D35
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=D36
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=D37
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=D38
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=D39
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=D40
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=D41
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=D42
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=D43
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=D44
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=D45
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=D46
+Removed Member From Class: ClassName=HV Member=NetD32_2
+Removed Member From Class: ClassName=HV Member=NetD36_2
+Removed Member From Class: ClassName=HV Member=NetD40_2
+Removed Member From Class: ClassName=HV Member=NetD44_2
+Added Component: Designator=VD1(DO-214AB)
+Added Component: Designator=VD2(DO-214AB)
+Added Component: Designator=VD3(DO-214AB)
+Added Component: Designator=VD4(DO-214AB)
+Added Component: Designator=VD5(DO-214AB)
+Added Component: Designator=VD6(DO-214AB)
+Added Component: Designator=VD7(DO-214AB)
+Added Component: Designator=VD8(DO-214AB)
+Added Component: Designator=VD9(DO-214AB)
+Added Component: Designator=VD10(DO-214AB)
+Added Component: Designator=VD11(DO-214AB)
+Added Component: Designator=VD12(DO-214AB)
+Added Component: Designator=VD13(DO-214AB)
+Added Component: Designator=VD14(DO-214AB)
+Added Component: Designator=VD15(DO-214AB)
+Added Component: Designator=VD16(DO-214AB)
+Added Pin To Net: NetName=GND Pin=C28-2
+Added Pin To Net: NetName=V_BAT Pin=VD1-1
+Added Pin To Net: NetName=NetC7_2 Pin=VD1-2
+Added Pin To Net: NetName=V_BAT Pin=VD2-1
+Added Pin To Net: NetName=NetC13_1 Pin=VD2-2
+Added Pin To Net: NetName=NetC7_2 Pin=VD3-1
+Added Pin To Net: NetName=NetD32_2 Pin=VD3-2
+Added Pin To Net: NetName=NetC13_1 Pin=VD4-1
+Added Pin To Net: NetName=NetD40_2 Pin=VD4-2
+Added Pin To Net: NetName=V_BAT Pin=VD5-1
+Added Pin To Net: NetName=NetC24_1 Pin=VD5-2
+Added Pin To Net: NetName=V_BAT Pin=VD6-1
+Added Pin To Net: NetName=NetC41_1 Pin=VD6-2
+Added Pin To Net: NetName=NetC41_1 Pin=VD7-1
+Added Pin To Net: NetName=NetC24_1 Pin=VD8-1
+Added Pin To Net: NetName=NetD32_2 Pin=VD8-2
+Added Pin To Net: NetName=V_BAT Pin=VD9-1
+Added Pin To Net: NetName=NetC31_1 Pin=VD9-2
+Added Pin To Net: NetName=V_BAT Pin=VD10-1
+Added Pin To Net: NetName=NetC29_1 Pin=VD10-2
+Added Pin To Net: NetName=NetC29_1 Pin=VD11-1
+Added Pin To Net: NetName=NetD36_2 Pin=VD11-2
+Added Pin To Net: NetName=NetC31_1 Pin=VD12-1
+Added Pin To Net: NetName=NetD44_2 Pin=VD12-2
+Added Pin To Net: NetName=V_BAT Pin=VD13-1
+Added Pin To Net: NetName=NetC35_1 Pin=VD13-2
+Added Pin To Net: NetName=V_BAT Pin=VD14-1
+Added Pin To Net: NetName=NetC37_1 Pin=VD14-2
+Added Pin To Net: NetName=NetD36_2 Pin=VD15-2
+Added Pin To Net: NetName=NetC37_1 Pin=VD16-1
+Added Pin To Net: NetName=NetD44_2 Pin=VD16-2
+Change Net Name : Old Net Name=NetC28_2 New Net Name=NetJ5_1
+Change Net Name : Old Net Name=NetD32_2 New Net Name=NetR29_2
+Change Net Name : Old Net Name=NetD36_2 New Net Name=NetR66_2
+Change Net Name : Old Net Name=NetD40_2 New Net Name=NetR32_2
+Change Net Name : Old Net Name=NetD44_2 New Net Name=NetR67_2
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component VD1 DIODE
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component VD2 DIODE
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component VD3 DIODE
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component VD4 DIODE
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component VD5 DIODE
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component VD6 DIODE
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component VD7 DIODE
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component VD8 DIODE
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component VD9 DIODE
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component VD10 DIODE
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component VD11 DIODE
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component VD12 DIODE
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component VD13 DIODE
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component VD14 DIODE
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component VD15 DIODE
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component VD16 DIODE
+Added Member To Class: ClassName=HV Member=Wire NetR29_2
+Added Member To Class: ClassName=HV Member=Wire NetR32_2
+Added Member To Class: ClassName=HV Member=Wire NetR66_2
+Added Member To Class: ClassName=HV Member=Wire NetR67_2
+Added Room: Name=STEP_DRIVER_V3.0

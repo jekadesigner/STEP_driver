@@ -1,0 +1,5 @@
+Added Component: Designator=VD?(LED-0603)
+Added Pin To Net: NetName=GND Pin=VD?-1
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component R? 2K
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component VD? 15V
+Added Room: Name=STEP_DRIVER_V3.0
