@@ -1,13 +1,10 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\STEP_DRIVER_V3.0.PcbDoc
-Date     : 27.10.2023
-Time     : 17:14:36
+Date     : 30.10.2023
+Time     : 12:47:42
 
 Processing Rule : Clearance Constraint (Gap=0.4mm) (InNetClass('All Nets')),(InNetClass('HV'))
-   Violation between Clearance Constraint: (Collision < 0.3mm) Between Polygon Region (1 hole(s)) Top Layer And Track (205.735mm,81.442mm)(205.735mm,81.442mm) on Top Layer 
-   Violation between Clearance Constraint: (Collision < 0.3mm) Between Polygon Region (1 hole(s)) Top Layer And Track (205.735mm,81.442mm)(207.6mm,83.307mm) on Top Layer 
-   Violation between Clearance Constraint: (Collision < 0.3mm) Between Polygon Region (1 hole(s)) Top Layer And Track (207.65mm,82.85mm)(208mm,82.5mm) on Top Layer 
-Rule Violations :3
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.15mm) (InNet('GND')),(All)
 Rule Violations :0
@@ -37,7 +34,8 @@ Processing Rule : Hole To Hole Clearance (Gap=0mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=0.01mm) (All),(All)
-Rule Violations :0
+   Violation between Minimum Solder Mask Sliver Constraint: (0.001mm < 0.01mm) Between Pad R105-2(84.176mm,54.621mm) on Bottom Layer And Pad TP65-1(86.025mm,53.996mm) on Multi-Layer [Bottom Solder] Mask Sliver [0.001mm]
+Rule Violations :1
 
 Processing Rule : Silk To Solder Mask (Clearance=0mm) (All),(All)
 Rule Violations :0
@@ -52,6 +50,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=55.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 3
+Violations Detected : 1
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
