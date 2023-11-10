@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=+5 Pin=C27-1
-Added Pin To Net: NetName=+5V Pin=C27-1
-Added Pin To Net: NetName=+5V Pin=D23-8
-Added Room: Name=STEP_DRIVER_V3.0
