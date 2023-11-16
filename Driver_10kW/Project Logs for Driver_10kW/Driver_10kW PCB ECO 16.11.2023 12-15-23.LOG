@@ -1,0 +1,9 @@
+Added Component: Designator=C56(330_450)
+Added Component: Designator=C57(330_450)
+Added Pin To Net: NetName=V_BAT Pin=C56-1
+Added Pin To Net: NetName=GND Pin=C56-2
+Added Pin To Net: NetName=V_BAT Pin=C57-1
+Added Pin To Net: NetName=GND Pin=C57-2
+Added Member To Class: ClassName=Driver_10kW Member=Component C56 CAP-POLAR
+Added Member To Class: ClassName=Driver_10kW Member=Component C57 CAP-POLAR
+Added Room: Name=Driver_10kW

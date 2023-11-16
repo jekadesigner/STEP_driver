@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=V_BAT Pin=L3-2
+Removed Pin From Net: NetName=V_BAT Pin=TP6-1
+Change Component Comment : Designator=C5 Old Comment=CAP-POLAR New Comment=450V_330uF
+Change Component Comment : Designator=C55 Old Comment=CAP-POLAR New Comment=450V_330uF
+Change Component Comment : Designator=C56 Old Comment=CAP-POLAR New Comment=450V_330uF
+Change Component Comment : Designator=C57 Old Comment=CAP-POLAR New Comment=450V_330uF
+Added Pin To Net: NetName=NetL3_2 Pin=L3-2
+Added Pin To Net: NetName=NetL3_2 Pin=TP6-1
+Added Net: Name=NetL3_2
+Added Room: Name=Driver_10kW
