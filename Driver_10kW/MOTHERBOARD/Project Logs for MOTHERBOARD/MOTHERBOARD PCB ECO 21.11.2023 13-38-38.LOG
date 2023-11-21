@@ -1,0 +1,121 @@
+Added Component: Designator=U2(SOIC8_INF)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2023 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "IR2104SPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Component: Designator=U5(SOIC8_INF)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2023 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "IR2104SPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Component: Designator=U6(SOIC8_INF)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2023 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "IR2104SPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Component: Designator=U7(SOIC8_INF)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2023 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "IR2104SPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Component: Designator=U8(SOIC8_INF)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2023 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "IR2104SPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Component: Designator=U9(SOIC8_INF)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2023 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "IR2104SPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Component: Designator=U10(SOIC8_INF)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2023 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "IR2104SPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Component: Designator=U11(SOIC8_INF)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2023 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "IR2104SPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VCC Pin=U2-1
+Added Pin To Net: NetName=NetR13_2 Pin=U2-2
+Added Pin To Net: NetName=NetR14_2 Pin=U2-3
+Added Pin To Net: NetName=GND Pin=U2-4
+Added Pin To Net: NetName=NetR17_2 Pin=U2-5
+Added Pin To Net: NetName=NetC5_1 Pin=U2-6
+Added Pin To Net: NetName=NetR11_1 Pin=U2-7
+Added Pin To Net: NetName=NetC5_2 Pin=U2-8
+Added Pin To Net: NetName=VCC Pin=U5-1
+Added Pin To Net: NetName=NetR15_2 Pin=U5-2
+Added Pin To Net: NetName=NetR14_2 Pin=U5-3
+Added Pin To Net: NetName=GND Pin=U5-4
+Added Pin To Net: NetName=NetR18_2 Pin=U5-5
+Added Pin To Net: NetName=NetC11_1 Pin=U5-6
+Added Pin To Net: NetName=NetR12_1 Pin=U5-7
+Added Pin To Net: NetName=NetC11_2 Pin=U5-8
+Added Pin To Net: NetName=VCC Pin=U6-1
+Added Pin To Net: NetName=NetR27_2 Pin=U6-2
+Added Pin To Net: NetName=NetR14_2 Pin=U6-3
+Added Pin To Net: NetName=GND Pin=U6-4
+Added Pin To Net: NetName=NetR31_2 Pin=U6-5
+Added Pin To Net: NetName=NetC12_1 Pin=U6-6
+Added Pin To Net: NetName=NetR25_1 Pin=U6-7
+Added Pin To Net: NetName=NetC12_2 Pin=U6-8
+Added Pin To Net: NetName=VCC Pin=U7-1
+Added Pin To Net: NetName=NetR29_2 Pin=U7-2
+Added Pin To Net: NetName=NetR14_2 Pin=U7-3
+Added Pin To Net: NetName=GND Pin=U7-4
+Added Pin To Net: NetName=NetR32_2 Pin=U7-5
+Added Pin To Net: NetName=NetC13_1 Pin=U7-6
+Added Pin To Net: NetName=NetR26_1 Pin=U7-7
+Added Pin To Net: NetName=NetC13_2 Pin=U7-8
+Added Pin To Net: NetName=VCC Pin=U8-1
+Added Pin To Net: NetName=NetR41_2 Pin=U8-2
+Added Pin To Net: NetName=NetR14_2 Pin=U8-3
+Added Pin To Net: NetName=GND Pin=U8-4
+Added Pin To Net: NetName=NetR45_2 Pin=U8-5
+Added Pin To Net: NetName=NetC21_1 Pin=U8-6
+Added Pin To Net: NetName=NetR37_1 Pin=U8-7
+Added Pin To Net: NetName=NetC21_2 Pin=U8-8
+Added Pin To Net: NetName=VCC Pin=U9-1
+Added Pin To Net: NetName=NetR43_2 Pin=U9-2
+Added Pin To Net: NetName=NetR14_2 Pin=U9-3
+Added Pin To Net: NetName=GND Pin=U9-4
+Added Pin To Net: NetName=NetR46_2 Pin=U9-5
+Added Pin To Net: NetName=NetC22_1 Pin=U9-6
+Added Pin To Net: NetName=NetR40_1 Pin=U9-7
+Added Pin To Net: NetName=NetC22_2 Pin=U9-8
+Added Pin To Net: NetName=VCC Pin=U10-1
+Added Pin To Net: NetName=NetR53_2 Pin=U10-2
+Added Pin To Net: NetName=NetR14_2 Pin=U10-3
+Added Pin To Net: NetName=GND Pin=U10-4
+Added Pin To Net: NetName=NetR58_2 Pin=U10-5
+Added Pin To Net: NetName=NetC23_1 Pin=U10-6
+Added Pin To Net: NetName=NetR51_1 Pin=U10-7
+Added Pin To Net: NetName=NetC23_2 Pin=U10-8
+Added Pin To Net: NetName=VCC Pin=U11-1
+Added Pin To Net: NetName=NetR55_2 Pin=U11-2
+Added Pin To Net: NetName=NetR14_2 Pin=U11-3
+Added Pin To Net: NetName=GND Pin=U11-4
+Added Pin To Net: NetName=NetR59_2 Pin=U11-5
+Added Pin To Net: NetName=NetC24_1 Pin=U11-6
+Added Pin To Net: NetName=NetR52_1 Pin=U11-7
+Added Pin To Net: NetName=NetC24_2 Pin=U11-8
+Added Member To Class: ClassName=MOTHERBOARD Member=Component U2 IR2104SPBF
+Added Member To Class: ClassName=MOTHERBOARD Member=Component U5 IR2104SPBF
+Added Member To Class: ClassName=MOTHERBOARD Member=Component U6 IR2104SPBF
+Added Member To Class: ClassName=MOTHERBOARD Member=Component U7 IR2104SPBF
+Added Member To Class: ClassName=MOTHERBOARD Member=Component U8 IR2104SPBF
+Added Member To Class: ClassName=MOTHERBOARD Member=Component U9 IR2104SPBF
+Added Member To Class: ClassName=MOTHERBOARD Member=Component U10 IR2104SPBF
+Added Member To Class: ClassName=MOTHERBOARD Member=Component U11 IR2104SPBF
+Added Room: Name=MOTHERBOARD

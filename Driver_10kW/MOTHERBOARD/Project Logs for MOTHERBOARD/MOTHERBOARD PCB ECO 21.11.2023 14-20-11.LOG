@@ -1,0 +1,13 @@
+Added Pin To Net: NetName=NetU4_15 Pin=X2-7
+Added Pin To Net: NetName=GND Pin=X2-8
+Added Pin To Net: NetName=+3V3 Pin=X2-9
+Added Pin To Net: NetName=NetU4_14 Pin=X3-7
+Added Pin To Net: NetName=GND Pin=X3-8
+Added Pin To Net: NetName=+3V3 Pin=X3-9
+Added Pin To Net: NetName=NetU4_17 Pin=X4-7
+Added Pin To Net: NetName=GND Pin=X4-8
+Added Pin To Net: NetName=+3V3 Pin=X4-9
+Added Pin To Net: NetName=NetU4_16 Pin=X5-7
+Added Pin To Net: NetName=GND Pin=X5-8
+Added Pin To Net: NetName=+3V3 Pin=X5-9
+Added Room: Name=MOTHERBOARD
