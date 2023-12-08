@@ -1,0 +1,45 @@
+Removed Pin From Net: NetName=NetQ4_3 Pin=R42-2
+Removed Pin From Net: NetName=NetQ3_3 Pin=R45-2
+Removed Pin From Net: NetName=NetQ12_3 Pin=R109-2
+Removed Pin From Net: NetName=NetQ11_3 Pin=R112-2
+Removed Pin From Net: NetName=GND Pin=R120-1
+Removed Pin From Net: NetName=NetQ12_3 Pin=R120-2
+Removed Member From Class: ClassName=Driver_10kW Member=R120
+Change Component Footprint: Designator=R40 Old Footprint=FP-SQP500-MFG New Footprint=RES-3921
+Change Component Footprint: Designator=R42 Old Footprint=FP-SQP500-MFG New Footprint=RES-3921
+Change Component Footprint: Designator=R45 Old Footprint=FP-SQP500-MFG New Footprint=RES-3921
+Change Component Footprint: Designator=R46 Old Footprint=FP-SQP500-MFG New Footprint=RES-3921
+Change Component Footprint: Designator=R107 Old Footprint=FP-SQP500-MFG New Footprint=RES-3921
+Change Component Footprint: Designator=R109 Old Footprint=FP-SQP500-MFG New Footprint=RES-3921
+Change Component Footprint: Designator=R112 Old Footprint=FP-SQP500-MFG New Footprint=RES-3921
+Change Component Comment : Designator=R40 Old Comment=SQP500JB-R91 New Comment=RES-CONST
+Change Component Comment : Designator=R42 Old Comment=SQP500JB-R91 New Comment=RES-CONST
+Change Component Comment : Designator=R45 Old Comment=SQP500JB-R91 New Comment=RES-CONST
+Change Component Comment : Designator=R46 Old Comment=SQP500JB-R91 New Comment=RES-CONST
+Change Component Comment : Designator=R107 Old Comment=SQP500JB-R91 New Comment=RES-CONST
+Change Component Comment : Designator=R109 Old Comment=SQP500JB-R91 New Comment=RES-CONST
+Change Component Comment : Designator=R112 Old Comment=SQP500JB-R91 New Comment=RES-CONST
+Change Managed Component Library Link : Designator=R40 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=7318B419-1D7E-431C-BBEE-F111AD8CF892 New ItemGUID= Old RevisionGUID=7AC611D3-8467-418A-B6F9-9B7C7429FDF1 New RevisionGUID=
+Change Managed Component Library Link : Designator=R42 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=7318B419-1D7E-431C-BBEE-F111AD8CF892 New ItemGUID= Old RevisionGUID=7AC611D3-8467-418A-B6F9-9B7C7429FDF1 New RevisionGUID=
+Change Managed Component Library Link : Designator=R45 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=7318B419-1D7E-431C-BBEE-F111AD8CF892 New ItemGUID= Old RevisionGUID=7AC611D3-8467-418A-B6F9-9B7C7429FDF1 New RevisionGUID=
+Change Managed Component Library Link : Designator=R46 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=7318B419-1D7E-431C-BBEE-F111AD8CF892 New ItemGUID= Old RevisionGUID=7AC611D3-8467-418A-B6F9-9B7C7429FDF1 New RevisionGUID=
+Change Managed Component Library Link : Designator=R107 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=7318B419-1D7E-431C-BBEE-F111AD8CF892 New ItemGUID= Old RevisionGUID=7AC611D3-8467-418A-B6F9-9B7C7429FDF1 New RevisionGUID=
+Change Managed Component Library Link : Designator=R109 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=7318B419-1D7E-431C-BBEE-F111AD8CF892 New ItemGUID= Old RevisionGUID=7AC611D3-8467-418A-B6F9-9B7C7429FDF1 New RevisionGUID=
+Change Managed Component Library Link : Designator=R112 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=7318B419-1D7E-431C-BBEE-F111AD8CF892 New ItemGUID= Old RevisionGUID=7AC611D3-8467-418A-B6F9-9B7C7429FDF1 New RevisionGUID=
+Change component parameters: Designator = "R40" ("R40"); Footprint = "FP-SQP500-MFG"; UniqueID = "\VNMFEWOH" ("\VNMFEWOH")
+Change component parameters: Designator = "R42" ("R42"); Footprint = "FP-SQP500-MFG"; UniqueID = "\MQWOOROQ" ("\MQWOOROQ")
+Change component parameters: Designator = "R45" ("R45"); Footprint = "FP-SQP500-MFG"; UniqueID = "\GFYGRLRT" ("\GFYGRLRT")
+Change component parameters: Designator = "R46" ("R46"); Footprint = "FP-SQP500-MFG"; UniqueID = "\UIQSBVQY" ("\UIQSBVQY")
+Change component parameters: Designator = "R107" ("R107"); Footprint = "FP-SQP500-MFG"; UniqueID = "\WWLTKWLS" ("\WWLTKWLS")
+Change component parameters: Designator = "R109" ("R109"); Footprint = "FP-SQP500-MFG"; UniqueID = "\IASLPNWT" ("\IASLPNWT")
+Change component parameters: Designator = "R112" ("R112"); Footprint = "FP-SQP500-MFG"; UniqueID = "\ZTEXPVBZ" ("\ZTEXPVBZ")
+Added Component: Designator=R114(RES-3921)
+Added Component: Designator=U18(FP-B0505S-1WR3-MFG)
+Added Pin To Net: NetName=NetQ3_3 Pin=R42-2
+Added Pin To Net: NetName=NetQ4_3 Pin=R45-2
+Added Pin To Net: NetName=NetQ11_3 Pin=R109-2
+Added Pin To Net: NetName=NetQ12_3 Pin=R112-2
+Added Pin To Net: NetName=GND Pin=R114-1
+Added Pin To Net: NetName=NetQ12_3 Pin=R114-2
+Added Member To Class: ClassName=Driver_10kW Member=Component R114 RES-CONST
+Added Room: Name=Driver_10kW

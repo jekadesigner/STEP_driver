@@ -1,0 +1,34 @@
+Added Component: Designator=U12(ADI-R-8_N)
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS-012-AA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.analog.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1250_1251.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Data Rate"; Value = "1 Mbps"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. H"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Generic Part Number"; Value = "ADUM1250"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "8-Pin Small Outline Package, Body 4.9 x 3.9 mm, Pitch 1.27 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Tube"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "ADuM1250ARZ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supply Voltage Max"; Value = "5.5 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supply Voltage Min"; Value = "3 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Max"; Value = "105 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Min"; Value = "-40 degC"; VariantName = "[No Variations]"
+Added Component: Designator=U18(FP-B0505S-1WR3-MFG)
+Added Pin To Net: NetName=+3V3 Pin=U12-1
+Added Pin To Net: NetName=NetP12_3 Pin=U12-2
+Added Pin To Net: NetName=NetP12_2 Pin=U12-3
+Added Pin To Net: NetName=GND Pin=U12-4
+Added Pin To Net: NetName=NetP3_4 Pin=U12-5
+Added Pin To Net: NetName=NetP3_1 Pin=U12-6
+Added Pin To Net: NetName=NetP3_2 Pin=U12-7
+Added Pin To Net: NetName=NetP3_3 Pin=U12-8
+Added Pin To Net: NetName=GND Pin=U18-1
+Added Pin To Net: NetName=+5V Pin=U18-2
+Added Pin To Net: NetName=NetP3_4 Pin=U18-3
+Added Pin To Net: NetName=NetP3_5 Pin=U18-4
+Added Member To Class: ClassName=Driver_10kW Member=Component U12 ADuM1250ARZ
+Added Member To Class: ClassName=Driver_10kW Member=Component U18 B0505S-1WR3
+Added Room: Name=Driver_10kW

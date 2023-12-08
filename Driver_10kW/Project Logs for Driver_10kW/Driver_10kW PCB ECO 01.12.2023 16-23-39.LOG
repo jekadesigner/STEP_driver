@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=NetC15_2 Pin=X2-2
+Removed Pin From Net: NetName=NetQ7_1 Pin=X2-6
+Added Pin To Net: NetName=NetQ7_1 Pin=X2-2
+Added Pin To Net: NetName=NetC15_2 Pin=X2-6
+Added Room: Name=Driver_10kW

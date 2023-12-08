@@ -1,0 +1,33 @@
+Added Component: Designator=X2(BH-10)
+Added Component: Designator=X3(BH-10)
+Added Component: Designator=X4(BH-10)
+Added Component: Designator=X5(BH-10)
+Added Pin To Net: NetName=NetD4_2 Pin=X2-1
+Added Pin To Net: NetName=NetC11_1 Pin=X2-2
+Added Pin To Net: NetName=NetD6_2 Pin=X2-3
+Added Pin To Net: NetName=NetD10_2 Pin=X2-4
+Added Pin To Net: NetName=NetC13_1 Pin=X2-5
+Added Pin To Net: NetName=NetD12_2 Pin=X2-6
+Added Pin To Net: NetName=NetD3_2 Pin=X3-1
+Added Pin To Net: NetName=NetC5_1 Pin=X3-2
+Added Pin To Net: NetName=NetD4_2 Pin=X3-3
+Added Pin To Net: NetName=NetD9_2 Pin=X3-4
+Added Pin To Net: NetName=NetC12_1 Pin=X3-5
+Added Pin To Net: NetName=NetD11_2 Pin=X3-6
+Added Pin To Net: NetName=NetD16_2 Pin=X4-1
+Added Pin To Net: NetName=NetC22_1 Pin=X4-2
+Added Pin To Net: NetName=NetD18_2 Pin=X4-3
+Added Pin To Net: NetName=NetD24_2 Pin=X4-4
+Added Pin To Net: NetName=NetC24_1 Pin=X4-5
+Added Pin To Net: NetName=NetD26_2 Pin=X4-6
+Added Pin To Net: NetName=NetD15_2 Pin=X5-1
+Added Pin To Net: NetName=NetC21_1 Pin=X5-2
+Added Pin To Net: NetName=NetD17_2 Pin=X5-3
+Added Pin To Net: NetName=NetD21_2 Pin=X5-4
+Added Pin To Net: NetName=NetC23_1 Pin=X5-5
+Added Pin To Net: NetName=NetD25_2 Pin=X5-6
+Added Member To Class: ClassName=MOTHERBOARD Member=Component X2 BH-10
+Added Member To Class: ClassName=MOTHERBOARD Member=Component X3 BH-10
+Added Member To Class: ClassName=MOTHERBOARD Member=Component X4 BH-10
+Added Member To Class: ClassName=MOTHERBOARD Member=Component X5 BH-10
+Added Room: Name=MOTHERBOARD

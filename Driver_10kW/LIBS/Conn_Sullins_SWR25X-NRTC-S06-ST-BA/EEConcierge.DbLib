@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=db.xls;Extended Properties="Excel 12.0 Xml;HDR=Yes;IMEX=1"
+ConnectionString=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\Driver_10kW\LIBS\Conn_Sullins_SWR25X-NRTC-S06-ST-BA\db.xlsx;Extended Properties="Excel 12.0 Xml;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
@@ -19,24 +19,25 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Upverter$
+LastFocusedTable=Components$
 [Table1]
 SchemaName=
-TableName=Upverter$
+TableName=Components$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Ref0=137|Library Path0=297|Footprint Ref0=205|Footprint Path0=326|Datasheet Path0=312|Automotive0=82|ComponentLink1Description0=170|ComponentLink1URL0=286|ComponentLink2Description0=170|ComponentLink2URL0=272|Conn Gender0=92|Conn Orientation0=114|Contact Material0=108|Current Rating0=99|Description0=188|Digikey Description0=188|Digikey Part Number0=128|Height0=58|Lead Free0=72|Manufacturer0=93|Number Of Contacts0=128|Number Of Rows0=111|Package0=137|Part Number0=137|Pitch0=48|Price0=89|RoHS0=51|Supplier 10=75|Supplier 20=75|Supplier Part Number 10=142|Temperature0=88|Temperature Range High0=152|Temperature Range Low0=148|Verification Version0=124|Voltage Rating0=100|helpURL0=286
 [FieldMap1]
-Options=FieldName=Upverter$.Part Number|TableNameOnly=Upverter$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Components$.Library Ref|TableNameOnly=Components$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
-Options=FieldName=Upverter$.Library Ref|TableNameOnly=Upverter$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Components$.Library Path|TableNameOnly=Components$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap3]
-Options=FieldName=Upverter$.Library Path|TableNameOnly=Upverter$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Components$.Footprint Ref|TableNameOnly=Components$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap4]
-Options=FieldName=Upverter$.Footprint Ref|TableNameOnly=Upverter$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Components$.Footprint Path|TableNameOnly=Components$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap5]
-Options=FieldName=Upverter$.Footprint Path|TableNameOnly=Upverter$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Components$.Description|TableNameOnly=Components$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap6]
-Options=FieldName=Upverter$.PCB3D Ref|TableNameOnly=Upverter$|FieldNameOnly=PCB3D Ref|FieldType=1|ParameterName=[PCB3D Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap7]
-Options=FieldName=Upverter$.PCB3D Path|TableNameOnly=Upverter$|FieldNameOnly=PCB3D Path|FieldType=1|ParameterName=[PCB3D Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Components$.Part Number|TableNameOnly=Components$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0

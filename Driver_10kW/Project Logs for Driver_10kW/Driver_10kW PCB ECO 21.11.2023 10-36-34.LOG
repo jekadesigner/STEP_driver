@@ -1,0 +1,412 @@
+Added Component: Designator=C40(FP-C0805C-DN-MFG)
+Added Component: Designator=C43(FP-C0805C-DN-MFG)
+Added Component: Designator=C44(FP-C0805C-DN-MFG)
+Added Component: Designator=D11(FP-6_560-5005_01-4-MFG)
+Added Component: Designator=D12(FP-6_560-5005_01-4-MFG)
+Added Component: Designator=D13(FP-6_560-5005_01-4-MFG)
+Added Component: Designator=D14(FP-6_560-5005_01-4-MFG)
+Added Component: Designator=D17(FP-6_560-5005_01-4-MFG)
+Added Component: Designator=D18(FP-6_560-5005_01-4-MFG)
+Added Component: Designator=D19(FP-6_560-5005_01-4-MFG)
+Added Component: Designator=D20(FP-6_560-5005_01-4-MFG)
+Added Component: Designator=D25(FP-6_560-5005_01-4-MFG)
+Added Component: Designator=D26(FP-6_560-5005_01-4-MFG)
+Added Component: Designator=D28(FP-6_560-5005_01-4-MFG)
+Added Component: Designator=D32(FP-6_560-5005_01-4-MFG)
+Added Component: Designator=D35(FP-6_560-5005_01-4-MFG)
+Added Component: Designator=D36(FP-6_560-5005_01-4-MFG)
+Added Component: Designator=D37(FP-6_560-5005_01-4-MFG)
+Added Component: Designator=D38(FP-6_560-5005_01-4-MFG)
+Added Component: Designator=R13(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R14(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R15(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R16(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R17(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R18(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R19(FP-CRCW0805-e3-IPC_B)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R21(FP-CRCW0805-e3-IPC_B)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R29(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R30(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R31(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R32(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R33(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R34(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R35(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R36(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R51(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R52(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R53(Vishay_CRCW0805-e3_IPC_A)
+Added Component: Designator=R54(Vishay_CRCW0805-e3_IPC_A)
+Added Component: Designator=R55(Vishay_CRCW0805-e3_IPC_A)
+Added Component: Designator=R56(Vishay_CRCW0805-e3_IPC_A)
+Added Component: Designator=R58(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R59(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R60(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R61(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R62(FP-CRCW0805-e3-IPC_B)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R63(FP-CRCW0805-e3-IPC_B)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R78(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R79(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R80(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R81(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R82(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R90(Vishay_CRCW0805-e3_IPC_A)
+Added Component: Designator=R103(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R104(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R105(Vishay_CRCW0805-e3_IPC_A)
+Add component (AddParameter): Name = "100k"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R121(Yageo_RC0805_IPC_A)
+Added Component: Designator=TP2(Test_Point)
+Added Component: Designator=TP3(Test_Point)
+Added Component: Designator=TP4(Test_Point)
+Added Component: Designator=TP5(Test_Point)
+Added Component: Designator=TP6(Test_Point)
+Added Component: Designator=TP7(Test_Point)
+Added Component: Designator=TP8(Test_Point)
+Added Component: Designator=TP9(Test_Point)
+Added Component: Designator=TP10(Test_Point)
+Added Component: Designator=TP11(Test_Point)
+Added Component: Designator=TP12(Test_Point)
+Added Component: Designator=TP23(Test_Point)
+Added Component: Designator=TP24(Test_Point)
+Added Component: Designator=TP25(Test_Point)
+Added Component: Designator=TP26(Test_Point)
+Added Component: Designator=TP27(Test_Point)
+Added Component: Designator=TP28(Test_Point)
+Added Component: Designator=TP29(Test_Point)
+Added Component: Designator=TP30(Test_Point)
+Added Component: Designator=TP31(Test_Point)
+Added Component: Designator=TP32(Test_Point)
+Added Component: Designator=TP33(Test_Point)
+Added Component: Designator=TP34(Test_Point)
+Added Component: Designator=TP35(Test_Point)
+Added Component: Designator=TP36(Test_Point)
+Added Component: Designator=TP37(Test_Point)
+Added Component: Designator=TP38(Test_Point)
+Added Component: Designator=TP39(Test_Point)
+Added Component: Designator=TP40(Test_Point)
+Added Component: Designator=TP41(Test_Point)
+Added Component: Designator=TP42(Test_Point)
+Added Component: Designator=TP43(Test_Point)
+Added Component: Designator=TP44(Test_Point)
+Added Component: Designator=TP45(Test_Point)
+Added Component: Designator=TP46(Test_Point)
+Added Component: Designator=TP47(Test_Point)
+Added Component: Designator=TP48(Test_Point)
+Added Component: Designator=TP49(Test_Point)
+Added Component: Designator=TP50(Test_Point)
+Added Component: Designator=TP51(Test_Point)
+Added Component: Designator=TP52(Test_Point)
+Added Component: Designator=TP53(Test_Point)
+Added Component: Designator=TP54(Test_Point)
+Added Component: Designator=TP55(Test_Point)
+Added Component: Designator=TP56(Test_Point)
+Added Component: Designator=TP57(Test_Point)
+Added Component: Designator=TP58(Test_Point)
+Added Component: Designator=TP59(Test_Point)
+Added Component: Designator=U2(SOIC8_INF-M)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2023 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "IR2104SPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Component: Designator=U5(SOIC8_INF-M)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2023 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "IR2104SPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Component: Designator=U6(SOIC8_INF-M)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2023 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "IR2104SPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Component: Designator=U7(SOIC8_INF-M)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2023 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "IR2104SPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Component: Designator=U8(SOIC8_INF-M)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2023 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "IR2104SPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Component: Designator=U9(SOIC8_INF-M)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2023 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "IR2104SPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Component: Designator=U10(SOIC8_INF-M)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2023 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "IR2104SPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Component: Designator=U11(SOIC8_INF-M)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2023 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "IR2104SPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Component: Designator=VD17(DO-017AA)
+Added Component: Designator=VD18(LED-0603)
+Added Pin To Net: NetName=NetD13_1 Pin=R17-1
+Added Pin To Net: NetName=NetR17_2 Pin=R17-2
+Added Pin To Net: NetName=NetD14_1 Pin=R18-1
+Added Pin To Net: NetName=NetR18_2 Pin=R18-2
+Added Pin To Net: NetName=NetD13_2 Pin=R19-1
+Added Pin To Net: NetName=NetD13_1 Pin=R19-2
+Added Pin To Net: NetName=NetD14_2 Pin=R21-1
+Added Pin To Net: NetName=NetD14_1 Pin=R21-2
+Added Pin To Net: NetName=NetD19_1 Pin=R33-1
+Added Pin To Net: NetName=NetR33_2 Pin=R33-2
+Added Pin To Net: NetName=NetD20_1 Pin=R34-1
+Added Pin To Net: NetName=NetR34_2 Pin=R34-2
+Added Pin To Net: NetName=NetD19_2 Pin=R35-1
+Added Pin To Net: NetName=NetD19_1 Pin=R35-2
+Added Pin To Net: NetName=NetD20_2 Pin=R36-1
+Added Pin To Net: NetName=NetD20_1 Pin=R36-2
+Added Pin To Net: NetName=NetC43_2 Pin=R53-1
+Added Pin To Net: NetName=V_PS Pin=R53-2
+Added Pin To Net: NetName=NetC44_2 Pin=R54-1
+Added Pin To Net: NetName=NetR54_2 Pin=R54-2
+Added Pin To Net: NetName=GND Pin=R55-1
+Added Pin To Net: NetName=NetC43_2 Pin=R55-2
+Added Pin To Net: NetName=GND Pin=R56-1
+Added Pin To Net: NetName=NetC44_2 Pin=R56-2
+Added Pin To Net: NetName=NetD28_1 Pin=R60-1
+Added Pin To Net: NetName=NetR60_2 Pin=R60-2
+Added Pin To Net: NetName=NetD32_1 Pin=R61-1
+Added Pin To Net: NetName=NetR61_2 Pin=R61-2
+Added Pin To Net: NetName=NetD28_2 Pin=R62-1
+Added Pin To Net: NetName=NetD28_1 Pin=R62-2
+Added Pin To Net: NetName=NetD32_2 Pin=R63-1
+Added Pin To Net: NetName=NetD32_1 Pin=R63-2
+Added Pin To Net: NetName=NetD37_1 Pin=R82-1
+Added Pin To Net: NetName=NetR82_2 Pin=R82-2
+Added Pin To Net: NetName=NetR90_1 Pin=R90-1
+Added Pin To Net: NetName=V_PS Pin=R90-2
+Added Pin To Net: NetName=NetD38_1 Pin=R103-1
+Added Pin To Net: NetName=NetR103_2 Pin=R103-2
+Added Pin To Net: NetName=NetD37_2 Pin=R104-1
+Added Pin To Net: NetName=NetD37_1 Pin=R104-2
+Added Pin To Net: NetName=NetD38_2 Pin=R105-1
+Added Pin To Net: NetName=NetD38_1 Pin=R105-2
+Added Pin To Net: NetName=NetR121_1 Pin=R121-1
+Added Pin To Net: NetName=NetR90_1 Pin=R121-2
+Added Pin To Net: NetName=NetC13_2 Pin=TP2-1
+Added Pin To Net: NetName=NetR54_2 Pin=TP3-1
+Added Pin To Net: NetName=NetC43_2 Pin=TP4-1
+Added Pin To Net: NetName=NetC44_2 Pin=TP5-1
+Added Pin To Net: NetName=V_BAT Pin=TP6-1
+Added Pin To Net: NetName=NetC14_2 Pin=TP7-1
+Added Pin To Net: NetName=NetD11_1 Pin=TP8-1
+Added Pin To Net: NetName=NetD12_1 Pin=TP9-1
+Added Pin To Net: NetName=NetR13_2 Pin=TP10-1
+Added Pin To Net: NetName=NetR15_2 Pin=TP11-1
+Added Pin To Net: NetName=NetD13_1 Pin=TP12-1
+Added Pin To Net: NetName=NetD14_1 Pin=TP23-1
+Added Pin To Net: NetName=NetC20_2 Pin=TP24-1
+Added Pin To Net: NetName=NetC21_2 Pin=TP25-1
+Added Pin To Net: NetName=NetD17_1 Pin=TP26-1
+Added Pin To Net: NetName=NetD18_1 Pin=TP27-1
+Added Pin To Net: NetName=NetR29_2 Pin=TP28-1
+Added Pin To Net: NetName=NetR31_2 Pin=TP29-1
+Added Pin To Net: NetName=NetC20_1 Pin=TP30-1
+Added Pin To Net: NetName=NetC21_1 Pin=TP31-1
+Added Pin To Net: NetName=NetD19_1 Pin=TP32-1
+Added Pin To Net: NetName=NetD20_1 Pin=TP33-1
+Added Pin To Net: NetName=NetQ3_3 Pin=TP34-1
+Added Pin To Net: NetName=NetQ4_3 Pin=TP35-1
+Added Pin To Net: NetName=NetC24_1 Pin=TP36-1
+Added Pin To Net: NetName=NetC25_1 Pin=TP37-1
+Added Pin To Net: NetName=NetC31_2 Pin=TP38-1
+Added Pin To Net: NetName=NetC32_2 Pin=TP39-1
+Added Pin To Net: NetName=NetD25_1 Pin=TP40-1
+Added Pin To Net: NetName=NetD26_1 Pin=TP41-1
+Added Pin To Net: NetName=NetR51_2 Pin=TP42-1
+Added Pin To Net: NetName=NetR58_2 Pin=TP43-1
+Added Pin To Net: NetName=NetD28_1 Pin=TP44-1
+Added Pin To Net: NetName=NetD32_1 Pin=TP45-1
+Added Pin To Net: NetName=NetC35_2 Pin=TP46-1
+Added Pin To Net: NetName=NetC36_2 Pin=TP47-1
+Added Pin To Net: NetName=NetD35_1 Pin=TP48-1
+Added Pin To Net: NetName=NetD36_1 Pin=TP49-1
+Added Pin To Net: NetName=NetR78_2 Pin=TP50-1
+Added Pin To Net: NetName=NetR80_2 Pin=TP51-1
+Added Pin To Net: NetName=NetC35_1 Pin=TP52-1
+Added Pin To Net: NetName=NetC36_1 Pin=TP53-1
+Added Pin To Net: NetName=NetD37_1 Pin=TP54-1
+Added Pin To Net: NetName=NetD38_1 Pin=TP55-1
+Added Pin To Net: NetName=NetQ11_3 Pin=TP56-1
+Added Pin To Net: NetName=NetQ12_3 Pin=TP57-1
+Added Pin To Net: NetName=NetC39_1 Pin=TP58-1
+Added Pin To Net: NetName=NetC41_1 Pin=TP59-1
+Added Pin To Net: NetName=VCC Pin=U2-1
+Added Pin To Net: NetName=NetR13_2 Pin=U2-2
+Added Pin To Net: NetName=NetR14_2 Pin=U2-3
+Added Pin To Net: NetName=GND Pin=U2-4
+Added Pin To Net: NetName=NetR17_2 Pin=U2-5
+Added Pin To Net: NetName=NetC13_1 Pin=U2-6
+Added Pin To Net: NetName=NetR11_1 Pin=U2-7
+Added Pin To Net: NetName=NetC13_2 Pin=U2-8
+Added Pin To Net: NetName=VCC Pin=U5-1
+Added Pin To Net: NetName=NetR15_2 Pin=U5-2
+Added Pin To Net: NetName=NetR14_2 Pin=U5-3
+Added Pin To Net: NetName=GND Pin=U5-4
+Added Pin To Net: NetName=NetR18_2 Pin=U5-5
+Added Pin To Net: NetName=NetC14_1 Pin=U5-6
+Added Pin To Net: NetName=NetR12_1 Pin=U5-7
+Added Pin To Net: NetName=NetC14_2 Pin=U5-8
+Added Pin To Net: NetName=VCC Pin=U6-1
+Added Pin To Net: NetName=NetR29_2 Pin=U6-2
+Added Pin To Net: NetName=NetR14_2 Pin=U6-3
+Added Pin To Net: NetName=GND Pin=U6-4
+Added Pin To Net: NetName=NetR33_2 Pin=U6-5
+Added Pin To Net: NetName=NetC20_1 Pin=U6-6
+Added Pin To Net: NetName=NetR27_1 Pin=U6-7
+Added Pin To Net: NetName=NetC20_2 Pin=U6-8
+Added Pin To Net: NetName=VCC Pin=U7-1
+Added Pin To Net: NetName=NetR31_2 Pin=U7-2
+Added Pin To Net: NetName=NetR14_2 Pin=U7-3
+Added Pin To Net: NetName=GND Pin=U7-4
+Added Pin To Net: NetName=NetR34_2 Pin=U7-5
+Added Pin To Net: NetName=NetC21_1 Pin=U7-6
+Added Pin To Net: NetName=NetR28_1 Pin=U7-7
+Added Pin To Net: NetName=NetC21_2 Pin=U7-8
+Added Pin To Net: NetName=VCC Pin=U8-1
+Added Pin To Net: NetName=NetR51_2 Pin=U8-2
+Added Pin To Net: NetName=NetR14_2 Pin=U8-3
+Added Pin To Net: NetName=GND Pin=U8-4
+Added Pin To Net: NetName=NetR60_2 Pin=U8-5
+Added Pin To Net: NetName=NetC31_1 Pin=U8-6
+Added Pin To Net: NetName=NetR49_1 Pin=U8-7
+Added Pin To Net: NetName=NetC31_2 Pin=U8-8
+Added Pin To Net: NetName=VCC Pin=U9-1
+Added Pin To Net: NetName=NetR58_2 Pin=U9-2
+Added Pin To Net: NetName=NetR14_2 Pin=U9-3
+Added Pin To Net: NetName=GND Pin=U9-4
+Added Pin To Net: NetName=NetR61_2 Pin=U9-5
+Added Pin To Net: NetName=NetC32_1 Pin=U9-6
+Added Pin To Net: NetName=NetR50_1 Pin=U9-7
+Added Pin To Net: NetName=NetC32_2 Pin=U9-8
+Added Pin To Net: NetName=VCC Pin=U10-1
+Added Pin To Net: NetName=NetR78_2 Pin=U10-2
+Added Pin To Net: NetName=NetR14_2 Pin=U10-3
+Added Pin To Net: NetName=GND Pin=U10-4
+Added Pin To Net: NetName=NetR82_2 Pin=U10-5
+Added Pin To Net: NetName=NetC35_1 Pin=U10-6
+Added Pin To Net: NetName=NetR68_1 Pin=U10-7
+Added Pin To Net: NetName=NetC35_2 Pin=U10-8
+Added Pin To Net: NetName=VCC Pin=U11-1
+Added Pin To Net: NetName=NetR80_2 Pin=U11-2
+Added Pin To Net: NetName=NetR14_2 Pin=U11-3
+Added Pin To Net: NetName=GND Pin=U11-4
+Added Pin To Net: NetName=NetR103_2 Pin=U11-5
+Added Pin To Net: NetName=NetC36_1 Pin=U11-6
+Added Pin To Net: NetName=NetR75_1 Pin=U11-7
+Added Pin To Net: NetName=NetC36_2 Pin=U11-8
+Added Pin To Net: NetName=NetR90_1 Pin=VD17-1
+Added Pin To Net: NetName=GND Pin=VD17-2
+Added Pin To Net: NetName=GND Pin=VD18-1
+Added Pin To Net: NetName=NetR121_1 Pin=VD18-2
+Added Member To Class: ClassName=Driver_10kW Member=Component R17 10
+Added Member To Class: ClassName=Driver_10kW Member=Component R18 10
+Added Member To Class: ClassName=Driver_10kW Member=Component R19 10
+Added Member To Class: ClassName=Driver_10kW Member=Component R21 10
+Added Member To Class: ClassName=Driver_10kW Member=Component R33 10
+Added Member To Class: ClassName=Driver_10kW Member=Component R34 10
+Added Member To Class: ClassName=Driver_10kW Member=Component R35 10
+Added Member To Class: ClassName=Driver_10kW Member=Component R36 10
+Added Member To Class: ClassName=Driver_10kW Member=Component R53 470K
+Added Member To Class: ClassName=Driver_10kW Member=Component R54 10K
+Added Member To Class: ClassName=Driver_10kW Member=Component R55 2.2K
+Added Member To Class: ClassName=Driver_10kW Member=Component R56 2.2K
+Added Member To Class: ClassName=Driver_10kW Member=Component R60 10
+Added Member To Class: ClassName=Driver_10kW Member=Component R61 10
+Added Member To Class: ClassName=Driver_10kW Member=Component R62 10
+Added Member To Class: ClassName=Driver_10kW Member=Component R63 10
+Added Member To Class: ClassName=Driver_10kW Member=Component R82 10
+Added Member To Class: ClassName=Driver_10kW Member=Component R90 47K
+Added Member To Class: ClassName=Driver_10kW Member=Component R103 10
+Added Member To Class: ClassName=Driver_10kW Member=Component R104 10
+Added Member To Class: ClassName=Driver_10kW Member=Component R105 10
+Added Member To Class: ClassName=Driver_10kW Member=Component R121 2K
+Added Member To Class: ClassName=Driver_10kW Member=Component TP2 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP3 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP4 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP5 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP6 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP7 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP8 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP9 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP10 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP11 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP12 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP23 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP24 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP25 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP26 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP27 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP28 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP29 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP30 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP31 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP32 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP33 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP34 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP35 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP36 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP37 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP38 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP39 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP40 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP41 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP42 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP43 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP44 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP45 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP46 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP47 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP48 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP49 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP50 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP51 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP52 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP53 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP54 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP55 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP56 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP57 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP58 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component TP59 Test_Point_PCB
+Added Member To Class: ClassName=Driver_10kW Member=Component U2 IR2104SPBF
+Added Member To Class: ClassName=Driver_10kW Member=Component U5 IR2104SPBF
+Added Member To Class: ClassName=Driver_10kW Member=Component U6 IR2104SPBF
+Added Member To Class: ClassName=Driver_10kW Member=Component U7 IR2104SPBF
+Added Member To Class: ClassName=Driver_10kW Member=Component U8 IR2104SPBF
+Added Member To Class: ClassName=Driver_10kW Member=Component U9 IR2104SPBF
+Added Member To Class: ClassName=Driver_10kW Member=Component U10 IR2104SPBF
+Added Member To Class: ClassName=Driver_10kW Member=Component U11 IR2104SPBF
+Added Member To Class: ClassName=Driver_10kW Member=Component VD17 15V
+Added Member To Class: ClassName=Driver_10kW Member=Component VD18 LED
+Added Room: Name=Driver_10kW

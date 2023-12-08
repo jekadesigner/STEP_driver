@@ -1,0 +1,23 @@
+Added Component: Designator=C15(CAP-1206)
+Added Component: Designator=C16(CAP-1206)
+Added Component: Designator=C33(CAP-1206)
+Added Component: Designator=C34(CAP-1206)
+Added Component: Designator=R9(RES-2512)
+Added Pin To Net: NetName=NetC15_1 Pin=C15-1
+Added Pin To Net: NetName=NetC15_2 Pin=C15-2
+Added Pin To Net: NetName=NetC16_1 Pin=C16-1
+Added Pin To Net: NetName=NetC16_2 Pin=C16-2
+Added Pin To Net: NetName=NetC33_1 Pin=C33-1
+Added Pin To Net: NetName=NetC33_2 Pin=C33-2
+Added Pin To Net: NetName=NetC34_1 Pin=C34-1
+Added Pin To Net: NetName=NetC34_2 Pin=C34-2
+Added Pin To Net: NetName=NetR9_1 Pin=R9-1
+Added Pin To Net: NetName=NetR9_1 Pin=R9-1
+Added Pin To Net: NetName=V_PS Pin=R9-2
+Added Pin To Net: NetName=V_PS Pin=R9-2
+Added Member To Class: ClassName=Driver_10kW Member=Component C15 CAP-NON-POLAR
+Added Member To Class: ClassName=Driver_10kW Member=Component C16 CAP-NON-POLAR
+Added Member To Class: ClassName=Driver_10kW Member=Component C33 CAP-NON-POLAR
+Added Member To Class: ClassName=Driver_10kW Member=Component C34 CAP-NON-POLAR
+Added Member To Class: ClassName=Driver_10kW Member=Component R9 47K
+Added Room: Name=Driver_10kW
