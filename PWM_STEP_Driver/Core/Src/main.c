@@ -25,7 +25,8 @@
 #include "stdint.h"
 #include "stdio.h"
 #include "math.h"
-#include "i2c_user.h"
+#include "modbusDevice.h"
+#include "modbusSlave.h"
 
 /* USER CODE END Includes */
 
@@ -50,7 +51,8 @@
 
 #define PORT4_ON    HAL_GPIO_WritePin(GPIOB, GPIO_PIN_13,GPIO_PIN_SET);
 #define PORT4_OFF   HAL_GPIO_WritePin(GPIOB, GPIO_PIN_13,GPIO_PIN_RESET);
-
+#define LED_1_ON    HAL_GPIO_WritePin(GPIOC, GPIO_PIN_15,GPIO_PIN_SET);
+#define LED_1_OFF   HAL_GPIO_WritePin(GPIOC, GPIO_PIN_15,GPIO_PIN_RESET);
 #define LED_2_ON    HAL_GPIO_WritePin(GPIOF, GPIO_PIN_0,GPIO_PIN_SET);
 #define LED_2_OFF   HAL_GPIO_WritePin(GPIOF, GPIO_PIN_0,GPIO_PIN_RESET);
 
@@ -113,6 +115,8 @@ TIM_HandleTypeDef htim15;
 
 UART_HandleTypeDef huart1;
 UART_HandleTypeDef huart2;
+DMA_HandleTypeDef hdma_usart2_rx;
+DMA_HandleTypeDef hdma_usart2_tx;
 
 /* USER CODE BEGIN PV */
 char str[112]={0, };
@@ -121,7 +125,7 @@ static uint16_t current[4]={0, };
 static uint16_t hall_sens[5]={0, };
 uint16_t pwm[]={10,10,10,10 };
 uint8_t TxData[6] = {0, };
-uint16_t slaveADDR = 0x12<<1;
+//uint16_t slaveADDR = 0x12<<1;
 
 uint16_t limit=500;
 
@@ -131,9 +135,9 @@ volatile uint16_t pwm_cmd=0;
 uint8_t pwm_tgr=0;
 volatile uint8_t flag = 0;
 
- uint period=0;
+ int period=0;
  uint16_t pulseWidth=0;
- uint rpm=0;
+ uint16_t rpm=0;
  uint16_t f=0;
  uint8_t backlight_state = 1;
  uint8_t adc_count=0;
@@ -146,14 +150,19 @@ volatile uint8_t flag = 0;
  uint8_t hour=0;
  uint8_t sec=0;
  uint8_t status=0;
+ uint16_t current_dc=5;
+ uint16_t voltage_dc=25;
 
 
  I2C_HandleTypeDef* i2cMasterHandler = &hi2c1;
 
 
 
-
-
+ uint8_t rxFrame[16];
+ uint8_t txFrame[255];
+ uint8_t SLAVE_ID=1;
+ uint16_t data_reg[16]={0,};
+ uint16_t rcv_data_reg[16]={0,};
 
 
 
@@ -264,8 +273,8 @@ for(uint8_t i=0;i<4;i++){
     LED_2_ON;
 	}
 
-	TxData[0]=pwm_cmd>>8;
-	TxData[1]=pwm_cmd&0xff;
+	//TxData[0]=pwm_cmd>>8;
+	//TxData[1]=pwm_cmd&0xff;
 
 	if(current[i]>=3800){
 
@@ -447,6 +456,7 @@ int filter(int x)
   }
 
 //////////////////////////////////////////////////////////////////////////////////////////////
+/*
 void page(void){
 	if((!CLEAR)&&(!page_flag)){
 		LED_3_ON;
@@ -462,16 +472,79 @@ void page(void){
 			 page_flag=0;
 
 		}
-
 }
-
+*/
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
+{
+	if (huart->Instance == USART2)
+	{
+
+
+
+        //  LED_3_ON;
+				 if (rxFrame[0] == SLAVE_ID) {
+
+
+					  			 		uint8_t opCode = rxFrame[1];
+					  			     switch (opCode) {
+					  			       case READ_COILs:
+
+					  			    	 break;
+					  			       case  READ_INPUT_REGs:
+					  			    	 handleReadHoldingRegs(&huart2,data_reg);
+
+
+					  			    	   break;
+					  			     case WRITE_SINGLE_REG:
+
+					  			   					  			    //	 handleWriteSingleHandlingRegister (&huart2,data_reg);
+					  			   					  			    	handleWriteMulyipleHandlingRegister (&huart2,rcv_data_reg);
+					  			                                              pwm_cmd=rcv_data_reg[1];
+
+					  			                                               break;
+
+					  			       case WRITE_HOLDING_REGs:
+
+
+					  			    	handleWriteMulyipleHandlingRegister (&huart2,rcv_data_reg);
+					  			    	 pwm_cmd=rcv_data_reg[1];
+					  			    	 limit=rcv_data_reg[2];
+					  			    	hour=(rcv_data_reg[3]>>8) & 0xff;
+					  			        min= rcv_data_reg[3] & 0xff;
+					  			    	sec=rcv_data_reg[4];
+
+
+
+
+                                            break;
+
+
+					  			       default:
+					  			 				break;
+					  			     }
+
+					  			 }
+
+		/* start the DMA again */
+
+			//	 for(uint8_t i=0;i<sizeof(rxFrame);)
+			//	 {           rxFrame[i]=0;i++;}
+
+		HAL_UARTEx_ReceiveToIdle_DMA(&huart2, (uint8_t *) rxFrame,sizeof(rxFrame));
+		__HAL_DMA_DISABLE_IT(&hdma_usart2_rx, DMA_IT_HT);
+
+	}
+}
 
 
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+
+
 
 static void I2C_Init(void)
 {
@@ -492,6 +565,8 @@ static void I2C_Init(void)
 	  I2C1->CR1 |= (1<<15);  // reset the I2C
 	  I2C1->CR1 &= ~(1<<15);  // Normal operation
 }
+
+
 
 void lcd_init();
 void lcd_write_nibble(uint8_t nibble, uint8_t rs);
@@ -586,16 +661,16 @@ int main(void)
   HAL_Delay(100);
 
 
- // I2C_Init();
+  I2C_Init();
 
 
 
   lcd_init();
   lcd_clear();
-   // char *text = " ";
+    char *text = " ";
     char int_to_str[10];
 
-     LED_2_OFF;
+  //   LED_2_OFF;
 
 
 
@@ -603,24 +678,27 @@ int main(void)
       I2C_send(0b00000010,0);   // установка курсора в начале строки
       I2C_send(0b00001100,0);   // нормальный режим работы
       I2C_send(0b00000001,0);   // очистка дисплея
-      HAL_ADC_Start_DMA(&hadc2, (uint16_t*)hall_sens, 5);
 
+
+  	sprintf(int_to_str, "RPM-%05d t/min     ",rpm);
+  				 	  		lcd_set_cursor(1, 0);
+  				 	  	    lcd_write_string(int_to_str);
+
+
+
+
+     HAL_ADC_Start_DMA(&hadc2, (uint16_t*)hall_sens, 5);
+     HAL_UARTEx_ReceiveToIdle_DMA(&huart2, rxFrame, 16);
+        __HAL_DMA_DISABLE_IT(&hdma_usart2_rx, DMA_IT_HT);
+       RX_2;
+      LED_2_OFF;
+  RX_2;
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-
-
-	//  sprintf(str, "\n\r Crnt_1-%04d, Crnt_2-%04d, Crnt_3-%04d, Crnt_4-%04d,Speed_PWM-%04d,Period-%08d,RPM - %04d\n\r",current[0],current[1],current[2],current[3],hall_sens[3],period,rpm);
-	//  TX_2;
-	 //	 	HAL_UART_Transmit_DMA(&huart2, str, sizeof(str));
-
-
-	 //	 	HAL_Delay(500);
-
-
 
 
 	  if(flag==1){
@@ -635,6 +713,21 @@ int main(void)
 		 	  		  ADC_read_1();
 		 	  		  ADC_read_12();
 
+		 	  data_reg[0]=current[0];
+		 	  data_reg[1]=current[1];
+		 	  data_reg[2]=current[2];
+		 	  data_reg[3]=current[3];
+		 	  data_reg[4]=pwm[0];
+		 	  data_reg[5]=pwm[1];
+		 	  data_reg[6]=pwm[2];
+		 	  data_reg[7]=pwm[3];
+		 	  data_reg[8]=rpm;
+		 	  data_reg[9]=f;
+		 	  data_reg[10]=limit;
+		 	  data_reg[11]=SLAVE_ID;
+		 	  data_reg[12]=voltage_dc;
+		 	  data_reg[13]=current_dc;
+
                 current_avg=(current[0]+current[1]+current[2]+current[3])/4;
                 current_sum=current[0]+current[1]+current[2]+current[3];
 		 	  		  adc_count++;
@@ -647,7 +740,7 @@ int main(void)
 		 	  		adc_filter[3]= filter(current[3]);
 
 
-
+		 	  if(page_flag==1){lcd_clear();page_flag=0;}
 		 	  	  if((page_num==0)&&(adc_count==20)){
 
 
@@ -680,11 +773,11 @@ int main(void)
 		 	  					 	  		lcd_set_cursor(2, 0);
 		 	  					 	  	    lcd_write_string(int_to_str);
 
-                                        /*
+
 		 	  					 	  		sprintf(int_to_str, "ADC_filter:%02d",adc_filter[0]);
 		 	  					 	  		lcd_set_cursor(3, 0);
 		 	  					 	  	    lcd_write_string(int_to_str);
-                                           */
+
 
 
 
@@ -747,18 +840,14 @@ int main(void)
 
 
 
-	  	PWM_correction();
-	  	page();
+	     PWM_correction();
+	 // 	 page();
 	  	 TIM1->CCR1=pwm[0];
 	  	 TIM1->CCR2=pwm[1];
 	  	 TIM8->CCR1=pwm[2];
 	  	 TIM15->CCR1=pwm[3];
-
-    //  HAL_I2C_Master_Transmit_DMA(&hi2c1, I2C_SLAVE_ADDRESS, TxData, 6);
-
-
-	  	flag=0;
-	  	HAL_ADC_Start_DMA(&hadc2, (uint16_t*)hall_sens, 5);
+	  	 flag=0;
+	  	 HAL_ADC_Start_DMA(&hadc2, (uint16_t*)hall_sens, 5);
 
 	  }
 
@@ -1236,7 +1325,7 @@ static void MX_TIM1_Init(void)
   sBreakDeadTimeConfig.OffStateRunMode = TIM_OSSR_DISABLE;
   sBreakDeadTimeConfig.OffStateIDLEMode = TIM_OSSI_DISABLE;
   sBreakDeadTimeConfig.LockLevel = TIM_LOCKLEVEL_OFF;
-  sBreakDeadTimeConfig.DeadTime = 50;
+  sBreakDeadTimeConfig.DeadTime = 100;
   sBreakDeadTimeConfig.BreakState = TIM_BREAK_DISABLE;
   sBreakDeadTimeConfig.BreakPolarity = TIM_BREAKPOLARITY_HIGH;
   sBreakDeadTimeConfig.BreakFilter = 0;
@@ -1275,7 +1364,7 @@ static void MX_TIM2_Init(void)
 
   /* USER CODE END TIM2_Init 1 */
   htim2.Instance = TIM2;
-  htim2.Init.Prescaler = 1;
+  htim2.Init.Prescaler = 0;
   htim2.Init.CounterMode = TIM_COUNTERMODE_UP;
   htim2.Init.Period = 64000000;
   htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
@@ -1426,7 +1515,7 @@ static void MX_TIM8_Init(void)
   sBreakDeadTimeConfig.OffStateRunMode = TIM_OSSR_DISABLE;
   sBreakDeadTimeConfig.OffStateIDLEMode = TIM_OSSI_DISABLE;
   sBreakDeadTimeConfig.LockLevel = TIM_LOCKLEVEL_OFF;
-  sBreakDeadTimeConfig.DeadTime = 50;
+  sBreakDeadTimeConfig.DeadTime = 100;
   sBreakDeadTimeConfig.BreakState = TIM_BREAK_DISABLE;
   sBreakDeadTimeConfig.BreakPolarity = TIM_BREAKPOLARITY_HIGH;
   sBreakDeadTimeConfig.BreakFilter = 0;
@@ -1505,7 +1594,7 @@ static void MX_TIM15_Init(void)
   sBreakDeadTimeConfig.OffStateRunMode = TIM_OSSR_DISABLE;
   sBreakDeadTimeConfig.OffStateIDLEMode = TIM_OSSI_DISABLE;
   sBreakDeadTimeConfig.LockLevel = TIM_LOCKLEVEL_OFF;
-  sBreakDeadTimeConfig.DeadTime = 0;
+  sBreakDeadTimeConfig.DeadTime = 100;
   sBreakDeadTimeConfig.BreakState = TIM_BREAK_DISABLE;
   sBreakDeadTimeConfig.BreakPolarity = TIM_BREAKPOLARITY_HIGH;
   sBreakDeadTimeConfig.BreakFilter = 0;
@@ -1572,7 +1661,7 @@ static void MX_USART2_UART_Init(void)
 
   /* USER CODE END USART2_Init 1 */
   huart2.Instance = USART2;
-  huart2.Init.BaudRate = 38400;
+  huart2.Init.BaudRate = 230400;
   huart2.Init.WordLength = UART_WORDLENGTH_8B;
   huart2.Init.StopBits = UART_STOPBITS_1;
   huart2.Init.Parity = UART_PARITY_NONE;
@@ -1599,8 +1688,15 @@ static void MX_DMA_Init(void)
 
   /* DMA controller clock enable */
   __HAL_RCC_DMA2_CLK_ENABLE();
+  __HAL_RCC_DMA1_CLK_ENABLE();
 
   /* DMA interrupt init */
+  /* DMA1_Channel6_IRQn interrupt configuration */
+  HAL_NVIC_SetPriority(DMA1_Channel6_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(DMA1_Channel6_IRQn);
+  /* DMA1_Channel7_IRQn interrupt configuration */
+  HAL_NVIC_SetPriority(DMA1_Channel7_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(DMA1_Channel7_IRQn);
   /* DMA2_Channel1_IRQn interrupt configuration */
   HAL_NVIC_SetPriority(DMA2_Channel1_IRQn, 0, 0);
   HAL_NVIC_EnableIRQ(DMA2_Channel1_IRQn);
@@ -1676,15 +1772,18 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(Direct_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : CLEAR_Pin */
-  GPIO_InitStruct.Pin = CLEAR_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  /*Configure GPIO pin : PB5 */
+  GPIO_InitStruct.Pin = GPIO_PIN_5;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING_FALLING;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(CLEAR_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
   /* EXTI interrupt init*/
   HAL_NVIC_SetPriority(EXTI1_IRQn, 0, 0);
   HAL_NVIC_EnableIRQ(EXTI1_IRQn);
+
+  HAL_NVIC_SetPriority(EXTI9_5_IRQn, 1, 0);
+  HAL_NVIC_EnableIRQ(EXTI9_5_IRQn);
 
   HAL_NVIC_SetPriority(EXTI15_10_IRQn, 3, 0);
   HAL_NVIC_EnableIRQ(EXTI15_10_IRQn);
@@ -1702,19 +1801,19 @@ void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim)
         if(htim->Channel == HAL_TIM_ACTIVE_CHANNEL_1)
         {
 
-        	TIM3->CNT=0;
+        //	 TIM3->CNT=0;
         	 HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_1);
         	 HAL_TIM_PWM_Stop(&htim1, TIM_CHANNEL_2);
         	 HAL_TIM_PWM_Stop(&htim8, TIM_CHANNEL_1);
         	 HAL_TIM_PWM_Stop(&htim15, TIM_CHANNEL_1);
 
 
-
+        	 period = 0;
 
             TIM2->CNT = 0;
             period = HAL_TIM_ReadCapturedValue(&htim2, TIM_CHANNEL_1);
             pulseWidth = HAL_TIM_ReadCapturedValue(&htim2, TIM_CHANNEL_2);
-           // LED_1_OFF;
+
             rpm= 480000000/period;
             f=32000000/period;
 
@@ -1729,7 +1828,7 @@ void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim)
         if(htim->Channel == HAL_TIM_ACTIVE_CHANNEL_2)
                 {
 
-        	  TIM3->CNT=0;
+        	//  TIM3->CNT=0;
         	  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_15);
 
 
@@ -1742,9 +1841,7 @@ void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim)
         	  HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
         	  HAL_TIM_PWM_Start(&htim8, TIM_CHANNEL_1);
         	  HAL_TIM_PWM_Start(&htim15, TIM_CHANNEL_1);
-
-
-                }
+                                                         }
 
     }
 }
@@ -1814,6 +1911,30 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 
      }
 
+
+   if(GPIO_Pin == GPIO_PIN_5) // если прерывание поступило от ножки PB_5
+      {
+	   if (GPIO_PIN_SET == HAL_GPIO_ReadPin (GPIOB, GPIO_PIN_5)){
+	             LED_3_OFF;
+
+	   			// if(page_num>2){page_num=0;}
+	   			// page_flag=0;
+	   		  EXTI->PR = EXTI_PR_PR5;
+      }
+
+     if (GPIO_PIN_RESET == HAL_GPIO_ReadPin (GPIOB, GPIO_PIN_5)){
+
+    	         LED_3_ON;
+    	 	     page_flag=1;
+    	         page_num++;
+    	         if(page_num>2){page_num=0;}
+    	         EXTI->PR = EXTI_PR_PR5;
+
+     }
+
+
+
+}
 }
 
 void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart)
@@ -1822,6 +1943,7 @@ void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart)
 
 RX_2;
 
+//LED_3_OFF;
 }
 
 

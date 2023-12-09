@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=GND Pin=J8-1
-Removed Pin From Net: NetName=GND Pin=J8-1
-Removed Pin From Net: NetName=+350 VDC Pin=J8-2
-Removed Pin From Net: NetName=+350 VDC Pin=J8-2
-Added Pin To Net: NetName=+350 VDC Pin=J8-1
-Added Pin To Net: NetName=+350 VDC Pin=J8-1
-Added Pin To Net: NetName=GND Pin=J8-2
-Added Pin To Net: NetName=GND Pin=J8-2
-Added Room: Name=Driver_10kW

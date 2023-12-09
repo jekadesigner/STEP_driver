@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=NetC21_1 Pin=J16-1
-Removed Pin From Net: NetName=NetC21_1 Pin=J16-1
-Removed Pin From Net: NetName=NetC14_1 Pin=J16-2
-Removed Pin From Net: NetName=NetC14_1 Pin=J16-2
-Added Pin To Net: NetName=NetC14_1 Pin=J16-1
-Added Pin To Net: NetName=NetC14_1 Pin=J16-1
-Added Pin To Net: NetName=NetC21_1 Pin=J16-2
-Added Pin To Net: NetName=NetC21_1 Pin=J16-2
-Added Room: Name=Driver_10kW
