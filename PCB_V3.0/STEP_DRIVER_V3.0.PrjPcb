@@ -1264,6 +1264,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UXQUIQIC
 
+[Document73]
+DocumentPath=LIBS\PASIVE_COMPONENTS\Hitano_100n_630V.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ADEDPCKB
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for STEP_DRIVER_V3.0\Design Rule Check - STEP_DRIVER_V3.html
 DItemRevisionGUID=
