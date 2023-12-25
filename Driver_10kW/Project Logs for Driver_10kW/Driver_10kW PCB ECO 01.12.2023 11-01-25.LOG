@@ -1,7 +1,0 @@
-Added Component: Designator=R10(RES-2512)
-Added Pin To Net: NetName=NetR9_1 Pin=R10-1
-Added Pin To Net: NetName=NetR9_1 Pin=R10-1
-Added Pin To Net: NetName=V_PS Pin=R10-2
-Added Pin To Net: NetName=V_PS Pin=R10-2
-Added Member To Class: ClassName=Driver_10kW Member=Component R10 47K
-Added Room: Name=Driver_10kW

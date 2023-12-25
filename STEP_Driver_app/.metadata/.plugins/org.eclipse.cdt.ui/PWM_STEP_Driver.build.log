@@ -1,0 +1,125 @@
+16:39:32 **** Incremental Build of configuration Debug for project PWM_STEP_Driver ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F303xC -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f3xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F303xC -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f3xx_hal_msp.d" -MT"Core/Src/stm32f3xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f3xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f3xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F303xC -c -I../Core/Inc -I../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F3xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f3xx_it.d" -MT"Core/Src/stm32f3xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f3xx_it.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:621:32: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  621 |      HAL_ADC_Start_DMA(&hadc2, (uint16_t*)hall_sens, 5);
+      |                                ^~~~~~~~~~~~~~~~~~~~
+      |                                |
+      |                                uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f3xx_hal_conf.h:219,
+                 from ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_adc.h:216:78: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  216 | HAL_StatusTypeDef       HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
+      |                                                                    ~~~~~~~~~~^~~~~
+../Core/Src/main.c:777:43: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  777 |                 HAL_ADC_Start_DMA(&hadc2, (uint16_t*)hall_sens, 5);
+      |                                           ^~~~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f3xx_hal_conf.h:219,
+                 from ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_adc.h:216:78: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  216 | HAL_StatusTypeDef       HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
+      |                                                                    ~~~~~~~~~~^~~~~
+../Core/Src/main.c:601:11: warning: unused variable 'text' [-Wunused-variable]
+  601 |     char *text = " ";
+      |           ^~~~
+../Core/Src/main.c:614:39: warning: ' t/min     ' directive writing 11 bytes into a region of size 1 [-Wformat-overflow=]
+  614 |         sprintf(int_to_str, "RPM-%05d t/min     ",rpm);
+      |                                      ~^~~~~~~~~~
+../Core/Src/main.c:614:9: note: 'sprintf' output 21 bytes into a destination of size 10
+  614 |         sprintf(int_to_str, "RPM-%05d t/min     ",rpm);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:670:87: warning: ' t/min     ' directive writing 11 bytes into a region of size 1 [-Wformat-overflow=]
+  670 |                                                         sprintf(int_to_str, "RPM-%05d t/min     ",rpm);
+      |                                                                                      ~^~~~~~~~~~
+../Core/Src/main.c:670:57: note: 'sprintf' output 21 bytes into a destination of size 10
+  670 |                                                         sprintf(int_to_str, "RPM-%05d t/min     ",rpm);
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:674:82: warning: '%05d' directive writing 5 bytes into a region of size 2 [-Wformat-overflow=]
+  674 |                                                     sprintf(int_to_str, "PWM_CMD-%05d/%03d%% ",pwm_n,pwm_n/20);
+      |                                                                                  ^~~~
+../Core/Src/main.c:674:53: note: 'sprintf' output between 20 and 22 bytes into a destination of size 10
+  674 |                                                     sprintf(int_to_str, "PWM_CMD-%05d/%03d%% ",pwm_n,pwm_n/20);
+      |                                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:678:82: warning: '%05d' directive writing 5 bytes into a region of size 2 [-Wformat-overflow=]
+  678 |                                                     sprintf(int_to_str, "ADC_avg-%05d ",current_avg);
+      |                                                                                  ^~~~
+../Core/Src/main.c:678:53: note: 'sprintf' output 15 bytes into a destination of size 10
+  678 |                                                     sprintf(int_to_str, "ADC_avg-%05d ",current_avg);
+      |                                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:682:79: warning: 'sprintf' writing a terminating nul past the end of the destination [-Wformat-overflow=]
+  682 |                                                 sprintf(int_to_str, "F=%05dHz ",f);
+      |                                                                               ^
+../Core/Src/main.c:682:49: note: 'sprintf' output 11 bytes into a destination of size 10
+  682 |                                                 sprintf(int_to_str, "F=%05dHz ",f);
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:691:92: warning: 'START_TIME:' directive writing 11 bytes into a region of size 10 [-Wformat-overflow=]
+  691 |                                                             sprintf(int_to_str, "START_TIME:%02d:%02d:%02d",hour,min,sec);
+      |                                                                                  ~~~~~~~~~~^
+../Core/Src/main.c:691:61: note: 'sprintf' output between 20 and 23 bytes into a destination of size 10
+  691 |                                                             sprintf(int_to_str, "START_TIME:%02d:%02d:%02d",hour,min,sec);
+      |                                                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:695:124: warning: ':' directive writing 1 byte into a region of size 0 [-Wformat-overflow=]
+  695 |                                                                                         sprintf(int_to_str, "TIME:%02d:%02d:%02d",sTime.Hours,sTime.Minutes,sTime.Seconds);
+      |                                                                                                                            ^
+../Core/Src/main.c:695:89: note: 'sprintf' output between 14 and 17 bytes into a destination of size 10
+  695 |                                                                                         sprintf(int_to_str, "TIME:%02d:%02d:%02d",sTime.Hours,sTime.Minutes,sTime.Seconds);
+      |                                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:700:120: warning: 'ADC_filter:' directive writing 11 bytes into a region of size 10 [-Wformat-overflow=]
+  700 |                                                                                         sprintf(int_to_str, "ADC_filter:%02d",adc_filter[0]);
+      |                                                                                                              ~~~~~~~~~~^
+../Core/Src/main.c:700:89: note: 'sprintf' output between 14 and 15 bytes into a destination of size 10
+  700 |                                                                                         sprintf(int_to_str, "ADC_filter:%02d",adc_filter[0]);
+      |                                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:715:113: warning: '%04d' directive writing between 4 and 5 bytes into a region of size between 0 and 2 [-Wformat-overflow=]
+  715 |                                                                                 sprintf(int_to_str, "PWM-%02d%%/%04d",pwm[0]/20,pwm[0]);
+      |                                                                                                                 ^~~~
+../Core/Src/main.c:715:81: note: 'sprintf' output between 13 and 17 bytes into a destination of size 10
+  715 |                                                                                 sprintf(int_to_str, "PWM-%02d%%/%04d",pwm[0]/20,pwm[0]);
+      |                                                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:719:105: warning: '%04d' directive writing between 4 and 5 bytes into a region of size between 0 and 2 [-Wformat-overflow=]
+  719 |                                                                         sprintf(int_to_str, "PWM-%02d%%/%04d",pwm[1]/20,pwm[1]);
+      |                                                                                                         ^~~~
+../Core/Src/main.c:719:73: note: 'sprintf' output between 13 and 17 bytes into a destination of size 10
+  719 |                                                                         sprintf(int_to_str, "PWM-%02d%%/%04d",pwm[1]/20,pwm[1]);
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:723:109: warning: '%04d' directive writing between 4 and 5 bytes into a region of size between 0 and 2 [-Wformat-overflow=]
+  723 |                                                                             sprintf(int_to_str, "PWM-%02d%%/%04d",pwm[2]/20,pwm[2]);
+      |                                                                                                             ^~~~
+../Core/Src/main.c:723:77: note: 'sprintf' output between 13 and 17 bytes into a destination of size 10
+  723 |                                                                             sprintf(int_to_str, "PWM-%02d%%/%04d",pwm[2]/20,pwm[2]);
+      |                                                                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:727:105: warning: '%04d' directive writing between 4 and 5 bytes into a region of size between 0 and 2 [-Wformat-overflow=]
+  727 |                                                                         sprintf(int_to_str, "PWM-%02d%%/%04d",pwm[3]/20,pwm[3]);
+      |                                                                                                         ^~~~
+../Core/Src/main.c:727:73: note: 'sprintf' output between 13 and 17 bytes into a destination of size 10
+  727 |                                                                         sprintf(int_to_str, "PWM-%02d%%/%04d",pwm[3]/20,pwm[3]);
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "PWM_STEP_Driver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\chipi\Documents\GitHub\STEP_driver\PWM_STEP_Driver\STM32F303CCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PWM_STEP_Driver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PWM_STEP_Driver.elf
+ 
+arm-none-eabi-size   PWM_STEP_Driver.elf 
+arm-none-eabi-objdump -h -S  PWM_STEP_Driver.elf  > "PWM_STEP_Driver.list"
+   text	   data	    bss	    dec	    hex	filename
+  49020	    112	   3280	  52412	   ccbc	PWM_STEP_Driver.elf
+arm-none-eabi-objcopy  -O ihex  PWM_STEP_Driver.elf  "PWM_STEP_Driver.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary  PWM_STEP_Driver.elf  "PWM_STEP_Driver.bin"
+ 
+Finished building: PWM_STEP_Driver.hex
+ 
+Finished building: PWM_STEP_Driver.list
+Finished building: PWM_STEP_Driver.bin
+ 
+ 
+
+16:39:34 Build Finished. 0 errors, 15 warnings. (took 2s.9ms)
+

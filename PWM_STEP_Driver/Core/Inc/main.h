@@ -100,8 +100,6 @@ void Error_Handler(void);
 #define Port_4_GPIO_Port GPIOB
 #define Direct_Pin GPIO_PIN_10
 #define Direct_GPIO_Port GPIOA
-#define CLEAR_Pin GPIO_PIN_5
-#define CLEAR_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
