@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=GND Pin=R64-1
+Added Pin To Net: NetName=NetC75_2 Pin=R64-2
+Added Room: Name=STEP_DRIVER_V3.0

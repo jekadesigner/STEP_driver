@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=NetD28_1 Pin=TP41-1
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=TP41
+Added Room: Name=STEP_DRIVER_V3.0
