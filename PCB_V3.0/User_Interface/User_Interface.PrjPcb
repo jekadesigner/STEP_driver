@@ -176,6 +176,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UBJTGRJY
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for User_Interface\Design Rule Check - User_Interface.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -295,7 +299,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=TSC TE200
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -395,7 +399,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=NPI23FAA8 (HP LaserJet MFP M426dw)
+TargetPrinter=TSC TE200
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
