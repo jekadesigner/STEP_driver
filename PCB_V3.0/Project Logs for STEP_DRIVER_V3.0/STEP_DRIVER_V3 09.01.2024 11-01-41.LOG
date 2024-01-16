@@ -1,0 +1,52 @@
+Removed Pin From Net: NetName=NetC14_1 Pin=C14-1
+Removed Pin From Net: NetName=V_BAT Pin=C14-2
+Removed Pin From Net: NetName=NetC32_1 Pin=C32-1
+Removed Pin From Net: NetName=V_BAT Pin=C32-2
+Removed Pin From Net: NetName=NetC14_1 Pin=C69-1
+Removed Pin From Net: NetName=V_BAT Pin=C69-2
+Removed Pin From Net: NetName=NetC32_1 Pin=C71-1
+Removed Pin From Net: NetName=V_BAT Pin=C71-2
+Removed Pin From Net: NetName=NetC75_1 Pin=C75-1
+Removed Pin From Net: NetName=V_BAT Pin=C75-2
+Removed Pin From Net: NetName=NetC76_1 Pin=C76-1
+Removed Pin From Net: NetName=V_BAT Pin=C76-2
+Removed Pin From Net: NetName=NetC76_1 Pin=C80-1
+Removed Pin From Net: NetName=V_BAT Pin=C80-2
+Removed Pin From Net: NetName=NetC75_1 Pin=C82-1
+Removed Pin From Net: NetName=V_BAT Pin=C82-2
+Removed Member From Class: ClassName=HV Member=NetC14_1
+Removed Member From Class: ClassName=HV Member=NetC32_1
+Removed Member From Class: ClassName=HV Member=NetC76_1
+Change Component Footprint: Designator=C14 Old Footprint=Hitano_100n_630V New Footprint=MKP 100nF 275VAC
+Change Component Footprint: Designator=C32 Old Footprint=Hitano_100n_630V New Footprint=MKP 100nF 275VAC
+Change Component Footprint: Designator=C69 Old Footprint=Hitano_100n_630V New Footprint=MKP 100nF 275VAC
+Change Component Footprint: Designator=C71 Old Footprint=Hitano_100n_630V New Footprint=MKP 100nF 275VAC
+Change Component Footprint: Designator=C75 Old Footprint=Hitano_100n_630V New Footprint=MKP 100nF 275VAC
+Change Component Footprint: Designator=C76 Old Footprint=Hitano_100n_630V New Footprint=MKP 100nF 275VAC
+Change Component Footprint: Designator=C80 Old Footprint=Hitano_100n_630V New Footprint=MKP 100nF 275VAC
+Change Component Footprint: Designator=C82 Old Footprint=Hitano_100n_630V New Footprint=MKP 100nF 275VAC
+Added Pin To Net: NetName=V_BAT Pin=C14-1
+Added Pin To Net: NetName=NetC14_1 Pin=C14-2
+Added Pin To Net: NetName=V_BAT Pin=C32-1
+Added Pin To Net: NetName=NetC32_1 Pin=C32-2
+Added Pin To Net: NetName=V_BAT Pin=C69-1
+Added Pin To Net: NetName=NetC14_1 Pin=C69-2
+Added Pin To Net: NetName=V_BAT Pin=C71-1
+Added Pin To Net: NetName=NetC32_1 Pin=C71-2
+Added Pin To Net: NetName=V_BAT Pin=C75-1
+Added Pin To Net: NetName=NetC75_1 Pin=C75-2
+Added Pin To Net: NetName=V_BAT Pin=C76-1
+Added Pin To Net: NetName=NetC76_1 Pin=C76-2
+Added Pin To Net: NetName=V_BAT Pin=C80-1
+Added Pin To Net: NetName=NetC76_1 Pin=C80-2
+Added Pin To Net: NetName=V_BAT Pin=C82-1
+Added Pin To Net: NetName=NetC75_1 Pin=C82-2
+Added Pin To Net: NetName=V_BAT Pin=VD9-2
+Change Net Name : Old Net Name=NetC14_1 New Net Name=NetC14_2
+Change Net Name : Old Net Name=NetC32_1 New Net Name=NetC32_2
+Change Net Name : Old Net Name=NetC75_1 New Net Name=NetC75_2
+Change Net Name : Old Net Name=NetC76_1 New Net Name=NetC76_2
+Added Member To Class: ClassName=HV Member=Wire NetC14_2
+Added Member To Class: ClassName=HV Member=Wire NetC32_2
+Added Member To Class: ClassName=HV Member=Wire NetC76_2
+Added Room: Name=STEP_DRIVER_V3.0

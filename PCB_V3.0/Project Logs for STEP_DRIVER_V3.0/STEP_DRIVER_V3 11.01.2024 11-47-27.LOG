@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=GND Pin=J3-2
+Removed Pin From Net: NetName=GND Pin=J3-2
+Removed Pin From Net: NetName=GND Pin=J18-1
+Removed Pin From Net: NetName=GND Pin=J18-1
+Removed Pin From Net: NetName=GND Pin=J18-1
+Removed Pin From Net: NetName=GND Pin=J18-1
+Removed Pin From Net: NetName=GND Pin=J19-1
+Removed Pin From Net: NetName=GND Pin=J19-1
+Removed Pin From Net: NetName=GND Pin=J19-1
+Removed Pin From Net: NetName=GND Pin=J19-1
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=J14
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=J17
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=J18
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=J19
+Removed Member From Class: ClassName=HV Member=NetJ3_1
+Added Pin To Net: NetName=GND Pin=J3-1
+Added Pin To Net: NetName=GND Pin=J3-1
+Added Pin To Net: NetName=NetJ3_2 Pin=J3-2
+Added Pin To Net: NetName=NetJ3_2 Pin=J3-2
+Added Pin To Net: NetName=NetJ3_2 Pin=U13-4
+Added Net: Name=NetJ3_2
+Added Member To Class: ClassName=HV Member=Wire NetJ3_2
+Added Room: Name=STEP_DRIVER_V3.0

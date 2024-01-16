@@ -432,6 +432,23 @@ GenerateClassCluster=0
 DocumentUniqueId=VRCIJFHW
 
 [Document24]
+DocumentPath=MKP 100nF 275VAC.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ADEDPCKB
+
+[Document25]
 DocumentPath=CAPPOL-10x20.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -448,7 +465,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FHUNPQTE
 
-[Document25]
+[Document26]
 DocumentPath=CAP-0201.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -465,7 +482,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DQCHFQLT
 
-[Document26]
+[Document27]
 DocumentPath=CAP-0603.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -482,7 +499,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RYJJFRSX
 
-[Document27]
+[Document28]
 DocumentPath=CAP-NON-POLAR.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -499,7 +516,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LJLWHIOA
 
-[Document28]
+[Document29]
 DocumentPath=CAP-0805.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1

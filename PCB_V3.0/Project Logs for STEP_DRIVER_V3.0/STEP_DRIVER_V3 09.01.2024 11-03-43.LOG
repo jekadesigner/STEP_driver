@@ -1,0 +1,33 @@
+Added Component: Designator=C14(MKP 100nF 275VAC)
+Added Component: Designator=C32(MKP 100nF 275VAC)
+Added Component: Designator=C69(MKP 100nF 275VAC)
+Added Component: Designator=C71(MKP 100nF 275VAC)
+Added Component: Designator=C75(MKP 100nF 275VAC)
+Added Component: Designator=C76(MKP 100nF 275VAC)
+Added Component: Designator=C80(MKP 100nF 275VAC)
+Added Component: Designator=C82(MKP 100nF 275VAC)
+Added Pin To Net: NetName=V_BAT Pin=C14-1
+Added Pin To Net: NetName=NetC14_2 Pin=C14-2
+Added Pin To Net: NetName=V_BAT Pin=C32-1
+Added Pin To Net: NetName=NetC32_2 Pin=C32-2
+Added Pin To Net: NetName=V_BAT Pin=C69-1
+Added Pin To Net: NetName=NetC14_2 Pin=C69-2
+Added Pin To Net: NetName=V_BAT Pin=C71-1
+Added Pin To Net: NetName=NetC32_2 Pin=C71-2
+Added Pin To Net: NetName=V_BAT Pin=C75-1
+Added Pin To Net: NetName=NetC75_2 Pin=C75-2
+Added Pin To Net: NetName=V_BAT Pin=C76-1
+Added Pin To Net: NetName=NetC76_2 Pin=C76-2
+Added Pin To Net: NetName=V_BAT Pin=C80-1
+Added Pin To Net: NetName=NetC76_2 Pin=C80-2
+Added Pin To Net: NetName=V_BAT Pin=C82-1
+Added Pin To Net: NetName=NetC75_2 Pin=C82-2
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component C14 CAP-NON-POLAR
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component C32 CAP-NON-POLAR
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component C69 CAP-NON-POLAR
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component C71 CAP-NON-POLAR
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component C75 CAP-NON-POLAR
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component C76 CAP-NON-POLAR
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component C80 CAP-NON-POLAR
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component C82 CAP-NON-POLAR
+Added Room: Name=STEP_DRIVER_V3.0

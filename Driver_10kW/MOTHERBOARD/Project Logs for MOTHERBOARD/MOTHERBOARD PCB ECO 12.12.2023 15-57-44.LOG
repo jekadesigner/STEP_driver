@@ -1,0 +1,27 @@
+Change Component Footprint: Designator=R8 Old Footprint=Yageo_RC0805_IPC_A New Footprint=Vishay_CRCW0805-e3_IPC_A
+Change Component Footprint: Designator=R57 Old Footprint=Yageo_RC0805_IPC_A New Footprint=Vishay_CRCW0805-e3_IPC_A
+Added Component: Designator=R62(Vishay_CRCW0805-e3_IPC_A)
+Added Component: Designator=R63(Vishay_CRCW0805-e3_IPC_A)
+Added Component: Designator=R64(Vishay_CRCW0805-e3_IPC_A)
+Added Component: Designator=R65(Vishay_CRCW0805-e3_IPC_A)
+Added Component: Designator=R66(Vishay_CRCW0805-e3_IPC_A)
+Added Component: Designator=R68(Vishay_CRCW0805-e3_IPC_A)
+Added Pin To Net: NetName=NetR9_1 Pin=R62-1
+Added Pin To Net: NetName=NetR62_2 Pin=R62-2
+Added Pin To Net: NetName=NetR8_1 Pin=R63-1
+Added Pin To Net: NetName=NetR63_2 Pin=R63-2
+Added Pin To Net: NetName=NetD28_1 Pin=R64-1
+Added Pin To Net: NetName=NetP6_5 Pin=R64-2
+Added Pin To Net: NetName=GND_2 Pin=R65-1
+Added Pin To Net: NetName=NetJ2_3 Pin=R65-2
+Added Pin To Net: NetName=GND_2 Pin=R66-1
+Added Pin To Net: NetName=NetR66_2 Pin=R66-2
+Added Pin To Net: NetName=NetD30_1 Pin=R68-1
+Added Pin To Net: NetName=+5V Pin=R68-2
+Added Member To Class: ClassName=MOTHERBOARD Member=Component R62 100
+Added Member To Class: ClassName=MOTHERBOARD Member=Component R63 100
+Added Member To Class: ClassName=MOTHERBOARD Member=Component R64 220
+Added Member To Class: ClassName=MOTHERBOARD Member=Component R65 10K
+Added Member To Class: ClassName=MOTHERBOARD Member=Component R66 10K
+Added Member To Class: ClassName=MOTHERBOARD Member=Component R68 220
+Added Room: Name=MOTHERBOARD

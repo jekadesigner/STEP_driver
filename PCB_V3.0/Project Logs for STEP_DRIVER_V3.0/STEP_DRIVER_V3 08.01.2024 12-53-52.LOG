@@ -1,0 +1,76 @@
+Removed Pin From Net: NetName=GND Pin=J3-1
+Removed Pin From Net: NetName=GND Pin=J3-1
+Removed Pin From Net: NetName=NetJ3_2 Pin=J3-2
+Removed Pin From Net: NetName=NetJ3_2 Pin=J3-2
+Removed Pin From Net: NetName=NetC24_1 Pin=J8-1
+Removed Pin From Net: NetName=NetC24_1 Pin=J8-1
+Removed Pin From Net: NetName=NetC12_1 Pin=J8-2
+Removed Pin From Net: NetName=NetC12_1 Pin=J8-2
+Removed Pin From Net: NetName=NetC41_1 Pin=J9-1
+Removed Pin From Net: NetName=NetC41_1 Pin=J9-1
+Removed Pin From Net: NetName=NetC7_1 Pin=J9-2
+Removed Pin From Net: NetName=NetC7_1 Pin=J9-2
+Removed Pin From Net: NetName=NetC35_1 Pin=J10-1
+Removed Pin From Net: NetName=NetC35_1 Pin=J10-1
+Removed Pin From Net: NetName=NetC29_1 Pin=J10-2
+Removed Pin From Net: NetName=NetC29_1 Pin=J10-2
+Removed Pin From Net: NetName=NetC37_1 Pin=J15-1
+Removed Pin From Net: NetName=NetC37_1 Pin=J15-1
+Removed Pin From Net: NetName=NetC31_1 Pin=J15-2
+Removed Pin From Net: NetName=NetC31_1 Pin=J15-2
+Removed Member From Class: ClassName=HV Member=NetJ3_2
+Added Component: Designator=C59(FP-C0805C-DN-MFG)
+Added Component: Designator=C65(FP-C0805C-DN-MFG)
+Added Component: Designator=C66(FP-C0805C-DN-MFG)
+Added Component: Designator=C67(FP-C0805C-DN-MFG)
+Added Component: Designator=C68(FP-C0805C-DN-MFG)
+Added Component: Designator=C85(FP-C0805C-DN-MFG)
+Added Component: Designator=C89(FP-C0805C-DN-MFG)
+Added Component: Designator=C92(FP-C0805C-DN-MFG)
+Added Component: Designator=C93(FP-C0805C-DN-MFG)
+Added Component: Designator=C94(FP-C0805C-DN-MFG)
+Added Component: Designator=C95(FP-C0805C-DN-MFG)
+Added Component: Designator=C96(FP-C0805C-DN-MFG)
+Added Component: Designator=D33(FP-SOD323-MFG)
+Added Component: Designator=R127(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R128(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R129(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R130(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R131(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R132(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R133(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R134(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R135(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R136(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R137(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R138(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R139(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R140(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R141(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=R142(FP-CRCW0805-e3-IPC_A)
+Added Component: Designator=U2(FP-B0505S-1WR3-MFG)
+Added Pin To Net: NetName=NetJ3_2 Pin=J3-1
+Added Pin To Net: NetName=NetJ3_2 Pin=J3-1
+Added Pin To Net: NetName=GND Pin=J3-2
+Added Pin To Net: NetName=GND Pin=J3-2
+Added Pin To Net: NetName=NetC12_1 Pin=J8-1
+Added Pin To Net: NetName=NetC12_1 Pin=J8-1
+Added Pin To Net: NetName=NetC24_1 Pin=J8-2
+Added Pin To Net: NetName=NetC24_1 Pin=J8-2
+Added Pin To Net: NetName=NetC7_1 Pin=J9-1
+Added Pin To Net: NetName=NetC7_1 Pin=J9-1
+Added Pin To Net: NetName=NetC41_1 Pin=J9-2
+Added Pin To Net: NetName=NetC41_1 Pin=J9-2
+Added Pin To Net: NetName=NetC29_1 Pin=J10-1
+Added Pin To Net: NetName=NetC29_1 Pin=J10-1
+Added Pin To Net: NetName=NetC35_1 Pin=J10-2
+Added Pin To Net: NetName=NetC35_1 Pin=J10-2
+Added Pin To Net: NetName=NetC31_1 Pin=J15-1
+Added Pin To Net: NetName=NetC31_1 Pin=J15-1
+Added Pin To Net: NetName=NetC37_1 Pin=J15-2
+Added Pin To Net: NetName=NetC37_1 Pin=J15-2
+Added Pin To Net: NetName=NetC41_1 Pin=VD6-1
+Added Pin To Net: NetName=NetC32_1 Pin=VD8-1
+Change Net Name : Old Net Name=NetJ3_2 New Net Name=NetJ3_1
+Added Member To Class: ClassName=HV Member=Wire NetJ3_1
+Added Room: Name=STEP_DRIVER_V3.0
