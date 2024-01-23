@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=NetJ5_1 Pin=J5-1
-Removed Pin From Net: NetName=NetJ5_3 Pin=J5-3
-Change Component Designator: OldDesignator=3 NewDesignator=VD15
-Added Pin To Net: NetName=NetJ5_3 Pin=J5-1
-Added Pin To Net: NetName=NetJ5_1 Pin=J5-3
-Change Net Name : Old Net Name=NetJ5_1 New Net Name=NetJ5_3
-Change Net Name : Old Net Name=NetJ5_3 New Net Name=NetJ5_1
-Added Room: Name=STEP_DRIVER_V3.0
