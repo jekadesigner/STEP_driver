@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=NetJ5_3 Pin=Z1-1
+Removed Pin From Net: NetName=GND_2 Pin=Z1-2
+Removed Pin From Net: NetName=NetJ5_1 Pin=Z2-1
+Removed Pin From Net: NetName=GND_2 Pin=Z2-2
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=Z1
+Removed Member From Class: ClassName=STEP_DRIVER_V3.0 Member=Z2
+Added Component: Designator=ZD18(DO-214AA)
+Added Component: Designator=ZD19(DO-214AA)
+Added Pin To Net: NetName=GND_2 Pin=ZD18-1
+Added Pin To Net: NetName=NetJ5_3 Pin=ZD18-2
+Added Pin To Net: NetName=GND_2 Pin=ZD19-1
+Added Pin To Net: NetName=NetJ5_1 Pin=ZD19-2
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component ZD18 P6SMB16CA
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component ZD19 P6SMB16CA
+Added Room: Name=STEP_DRIVER_V3.0
