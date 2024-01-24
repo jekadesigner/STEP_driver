@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=NetC14_2 Pin=R128-1
+Removed Pin From Net: NetName=NetC14_2 Pin=R130-1
+Removed Pin From Net: NetName=NetC32_2 Pin=R132-1
+Removed Pin From Net: NetName=NetC32_2 Pin=R134-1
+Removed Pin From Net: NetName=NetC76_2 Pin=R137-1
+Removed Pin From Net: NetName=NetC75_2 Pin=R138-1
+Removed Pin From Net: NetName=NetC76_2 Pin=R141-1
+Removed Pin From Net: NetName=NetC75_2 Pin=R142-1
+Added Pin To Net: NetName=GND Pin=R128-1
+Added Pin To Net: NetName=GND Pin=R130-1
+Added Pin To Net: NetName=GND Pin=R132-1
+Added Pin To Net: NetName=GND Pin=R134-1
+Added Pin To Net: NetName=GND Pin=R137-1
+Added Pin To Net: NetName=GND Pin=R138-1
+Added Pin To Net: NetName=GND Pin=R141-1
+Added Pin To Net: NetName=GND Pin=R142-1
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component C2 1000uF_10V
+Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component C62 293D106X9050E2TE3
+Added Room: Name=STEP_DRIVER_V3.0
