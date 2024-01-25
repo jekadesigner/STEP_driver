@@ -1,5 +1,0 @@
-Change Component Designator: OldDesignator=122 NewDesignator=C57
-Added Pin To Net: NetName=+3V3_All Pin=C90-1
-Added Pin To Net: NetName=GND Pin=C90-2
-Added Member To Class: ClassName=STEP_DRIVER_V3.0 Member=Component C90 1000uF_10V
-Added Room: Name=STEP_DRIVER_V3.0
