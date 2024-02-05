@@ -1,0 +1,89 @@
+Removed Pin From Net: NetName=GND Pin=SW1-A1
+Removed Pin From Net: NetName=GND Pin=SW1-A2
+Removed Pin From Net: NetName=NetC1_2 Pin=SW1-B1
+Removed Pin From Net: NetName=NetC1_2 Pin=SW1-B2
+Removed Pin From Net: NetName=GND Pin=SW2-A1
+Removed Pin From Net: NetName=GND Pin=SW2-A2
+Removed Pin From Net: NetName=NetC2_2 Pin=SW2-B1
+Removed Pin From Net: NetName=NetC2_2 Pin=SW2-B2
+Removed Pin From Net: NetName=GND Pin=SW3-A1
+Removed Pin From Net: NetName=GND Pin=SW3-A2
+Removed Pin From Net: NetName=NetC3_2 Pin=SW3-B1
+Removed Pin From Net: NetName=NetC3_2 Pin=SW3-B2
+Removed Pin From Net: NetName=GND Pin=SW4-A1
+Removed Pin From Net: NetName=GND Pin=SW4-A2
+Removed Pin From Net: NetName=NetC4_2 Pin=SW4-B1
+Removed Pin From Net: NetName=NetC4_2 Pin=SW4-B2
+Removed Pin From Net: NetName=GND Pin=SW5-A1
+Removed Pin From Net: NetName=GND Pin=SW5-A2
+Removed Pin From Net: NetName=NetC5_2 Pin=SW5-B1
+Removed Pin From Net: NetName=NetC5_2 Pin=SW5-B2
+Removed Pin From Net: NetName=GND Pin=SW6-A1
+Removed Pin From Net: NetName=GND Pin=SW6-A2
+Removed Pin From Net: NetName=NetC7_2 Pin=SW6-B1
+Removed Pin From Net: NetName=NetC7_2 Pin=SW6-B2
+Removed Pin From Net: NetName=GND Pin=SW7-A1
+Removed Pin From Net: NetName=GND Pin=SW7-A2
+Removed Pin From Net: NetName=NetC8_2 Pin=SW7-B1
+Removed Pin From Net: NetName=NetC8_2 Pin=SW7-B2
+Removed Pin From Net: NetName=GND Pin=SW8-A1
+Removed Pin From Net: NetName=GND Pin=SW8-A2
+Removed Pin From Net: NetName=NetC9_2 Pin=SW8-B1
+Removed Pin From Net: NetName=NetC9_2 Pin=SW8-B2
+Change Component Comment : Designator=SW1 Old Comment=430156043726 New Comment=4-1437565-2
+Change Component Comment : Designator=SW2 Old Comment=430156043726 New Comment=4-1437565-2
+Change Component Comment : Designator=SW3 Old Comment=430156043726 New Comment=4-1437565-2
+Change Component Comment : Designator=SW4 Old Comment=430156043726 New Comment=4-1437565-2
+Change Component Comment : Designator=SW5 Old Comment=430156043726 New Comment=4-1437565-2
+Change Component Comment : Designator=SW6 Old Comment=430156043726 New Comment=4-1437565-2
+Change Component Comment : Designator=SW7 Old Comment=430156043726 New Comment=4-1437565-2
+Change Component Comment : Designator=SW8 Old Comment=430156043726 New Comment=4-1437565-2
+Change component parameters: Designator = "SW1" ("SW1"); Footprint = "4301x60437x6"; UniqueID = "\TPKNNQYZ" ("\TPKNNQYZ")
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2022 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "4-1437565-2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Change component parameters: Designator = "SW2" ("SW2"); Footprint = "4301x60437x6"; UniqueID = "\LIIPETGU" ("\LIIPETGU")
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2022 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "4-1437565-2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Change component parameters: Designator = "SW3" ("SW3"); Footprint = "4301x60437x6"; UniqueID = "\ISVMDMVH" ("\ISVMDMVH")
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2022 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "4-1437565-2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Change component parameters: Designator = "SW4" ("SW4"); Footprint = "4301x60437x6"; UniqueID = "\WLYAIEJK" ("\WLYAIEJK")
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2022 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "4-1437565-2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Change component parameters: Designator = "SW5" ("SW5"); Footprint = "4301x60437x6"; UniqueID = "\MWRLUNEZ" ("\MWRLUNEZ")
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2022 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "4-1437565-2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Change component parameters: Designator = "SW6" ("SW6"); Footprint = "4301x60437x6"; UniqueID = "\EAKTSUEI" ("\EAKTSUEI")
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2022 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "4-1437565-2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Change component parameters: Designator = "SW7" ("SW7"); Footprint = "4301x60437x6"; UniqueID = "\SUIAYKLO" ("\SUIAYKLO")
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2022 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "4-1437565-2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Change component parameters: Designator = "SW8" ("SW8"); Footprint = "4301x60437x6"; UniqueID = "\DCBMYGBG" ("\DCBMYGBG")
+Change component parameters (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2022 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "4-1437565-2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Room: Name=User_Interface
