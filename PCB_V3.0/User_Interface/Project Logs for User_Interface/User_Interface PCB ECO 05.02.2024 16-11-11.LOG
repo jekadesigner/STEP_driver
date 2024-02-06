@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=GND Pin=R23-1
-Removed Pin From Net: NetName=NetC10_2 Pin=VT1-2
-Removed Member From Class: ClassName=User_Interface Member=R23
-Change Component Comment : Designator=VT1 Old Comment=MOSFET-N-GSD New Comment=MOSFET-P-CH
-Added Pin To Net: NetName=NetR30_2 Pin=VT1-1
-Added Pin To Net: NetName=+5V Pin=VT1-2
-Added Pin To Net: NetName=NetC10_2 Pin=VT1-3
-Added Pin To Net: NetName=GND Pin=VT2-2
-Added Room: Name=User_Interface
