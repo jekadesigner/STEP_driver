@@ -83,6 +83,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BTRAQOWF
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for DRIVER POWER SUPPLY MODULE\Design Rule Check - DRIVER POWER SUPPLY MODULE.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
