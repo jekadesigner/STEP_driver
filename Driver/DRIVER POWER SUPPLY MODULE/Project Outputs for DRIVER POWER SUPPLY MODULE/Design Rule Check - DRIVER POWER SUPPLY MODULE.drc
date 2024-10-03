@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\Driver\DRIVER POWER SUPPLY MODULE\DRIVER POWER SUPPLY MODULE.PcbDoc
-Date     : 02.10.2024
-Time     : 16:33:21
+Date     : 03.10.2024
+Time     : 12:24:53
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (InNetClass('All Nets')),(InNetClass('HV'))
 Rule Violations :0
@@ -29,7 +29,7 @@ Rule Violations :0
 
 Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=5mm) (All)
    Violation between Hole Size Constraint: (7mm > 5mm) Pad -1(173mm,120mm) on Multi-Layer Actual Hole Size = 7mm
-   Violation between Hole Size Constraint: (7mm > 5mm) Pad J10-1(17mm,35mm) on Multi-Layer Actual Hole Size = 7mm
+   Violation between Hole Size Constraint: (7mm > 5mm) Pad J10-1(15mm,35mm) on Multi-Layer Actual Hole Size = 7mm
    Violation between Hole Size Constraint: (7mm > 5mm) Pad J11-1(173mm,35mm) on Multi-Layer Actual Hole Size = 7mm
    Violation between Hole Size Constraint: (7mm > 5mm) Pad J12-1(173mm,50mm) on Multi-Layer Actual Hole Size = 7mm
    Violation between Hole Size Constraint: (7mm > 5mm) Pad J13-1(173mm,20mm) on Multi-Layer Actual Hole Size = 7mm
@@ -37,9 +37,9 @@ Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=5mm) (All)
    Violation between Hole Size Constraint: (7mm > 5mm) Pad J2-1(173mm,135mm) on Multi-Layer Actual Hole Size = 7mm
    Violation between Hole Size Constraint: (7mm > 5mm) Pad J3-1(173mm,150mm) on Multi-Layer Actual Hole Size = 7mm
    Violation between Hole Size Constraint: (7mm > 5mm) Pad J4-1(173mm,165mm) on Multi-Layer Actual Hole Size = 7mm
-   Violation between Hole Size Constraint: (7mm > 5mm) Pad J6-1(17mm,150mm) on Multi-Layer Actual Hole Size = 7mm
-   Violation between Hole Size Constraint: (7mm > 5mm) Pad J8-1(17mm,165mm) on Multi-Layer Actual Hole Size = 7mm
-   Violation between Hole Size Constraint: (7mm > 5mm) Pad J9-1(17mm,20mm) on Multi-Layer Actual Hole Size = 7mm
+   Violation between Hole Size Constraint: (7mm > 5mm) Pad J6-1(15mm,150mm) on Multi-Layer Actual Hole Size = 7mm
+   Violation between Hole Size Constraint: (7mm > 5mm) Pad J8-1(15mm,165mm) on Multi-Layer Actual Hole Size = 7mm
+   Violation between Hole Size Constraint: (7mm > 5mm) Pad J9-1(15mm,20mm) on Multi-Layer Actual Hole Size = 7mm
 Rule Violations :12
 
 Processing Rule : Hole To Hole Clearance (Gap=0mm) (All),(All)
