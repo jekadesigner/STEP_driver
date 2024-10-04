@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\Driver\DRIVER POWER SUPPLY MODULE\DRIVER POWER SUPPLY MODULE.PcbDoc
-Date     : 03.10.2024
-Time     : 16:54:44
+Date     : 04.10.2024
+Time     : 12:07:34
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (InNetClass('All Nets')),(InNetClass('HV'))
 Rule Violations :0
@@ -51,4 +51,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
