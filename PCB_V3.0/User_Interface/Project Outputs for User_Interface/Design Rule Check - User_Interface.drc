@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Cor-Energy\Documents\GitHub\STEP_driver\PCB_V3.0\User_Interface\User_Interface.PcbDoc
-Date     : 13.02.2024
-Time     : 13:46:40
+Date     : 08.11.2024
+Time     : 13:46:41
 
 WARNING: Unplated multi-layer pad(s) detected
    Pad TP4-1(66.525mm,94.75mm) on Multi-Layer on Net GND
@@ -14,7 +14,21 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-Rule Violations :0
+   Violation between Un-Routed Net Constraint: Unplated Pad LCD1-0(22mm,81.082mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad LCD1-1(13.027mm,83.114mm) on Multi-Layer And Pad LCD1-0(22mm,81.082mm) on Multi-Layer [Unplated] 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad LCD1-0(4.5mm,32.5mm) on Multi-Layer And Pad SW3-A2(15.75mm,19.75mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad LCD1-0(4.5mm,87.5mm) on Multi-Layer And Pad LCD1-1(13.027mm,83.114mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad SW4-A1(85.25mm,19.75mm) on Multi-Layer And Pad LCD1-0(97.5mm,32.5mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad P1-4(82.875mm,78.585mm) on Multi-Layer And Pad LCD1-0(97.5mm,87.5mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Via (23.55mm,95.5mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (36.15mm,95.625mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (45.225mm,92.125mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (55.15mm,95.2mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (67.925mm,76.925mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (76.65mm,95.15mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (76.95mm,69.8mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Via (85.25mm,92.825mm) from Top Layer to Bottom Layer Dead Copper - Net Not Assigned.
+Rule Violations :14
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -71,9 +85,10 @@ Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
-Rule Violations :0
+   Violation between Height Constraint: SIP Component LCD1-2004_I2C (51mm,60mm) on Top Layer Actual Height = 34.2mm
+Rule Violations :1
 
 
-Violations Detected : 27
+Violations Detected : 42
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
